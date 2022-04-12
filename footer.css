@@ -1,0 +1,25 @@
+    
+    p {
+        text-align: center;
+        font-size: xx-large;
+
+    }
+    ul {
+        
+        list-style-type: none;
+        margin: 10;
+        padding: 0;
+    }
+    li {
+        float: right;
+        margin: 15px;
+        
+    }
+    
+    a:hover {
+        display: inline-block;
+        width: 20px;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
