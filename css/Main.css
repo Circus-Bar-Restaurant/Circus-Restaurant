@@ -1,0 +1,47 @@
+.topnav {
+    background-color: rgb(145, 67, 67);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(145, 67, 67);
+    color: white;
+    text-align: center;
+}
+
+.navbar-nav>li>a {
+    color: #434040;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+    color: #8a0e0b;
+    background-color: #7c7774;
+}
+
+.navbar-nav>.active>a,
+.navbar-nav>.active>a:hover,
+.navbar-nav>.active>a:focus {
+    color: #8a0e0b;
+    background-color: #4a4746;
+}
+
+.nav-link {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 30px;
+}
+
+.blink-me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    60% {
+        opacity: 0;
+    }
+}
