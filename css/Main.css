@@ -2,6 +2,10 @@
     background-color: rgb(145, 67, 67);
 }
 
+.navbar-brand-x {
+    margin: -10px 0px -10px 0px;
+}
+
 .footer {
     position: fixed;
     left: 0;
