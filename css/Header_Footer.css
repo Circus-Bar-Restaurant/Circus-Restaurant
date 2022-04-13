@@ -1,20 +1,11 @@
+/*Navbar css*/
+
 .topnav {
     background-color: rgb(145, 67, 67);
 }
 
 .navbar-brand-x {
     margin: -10px 0px -10px 0px;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 30px;
-    width: 100%;
-    background-color: rgb(145, 67, 67);
-    color: white;
-    text-align: center;
 }
 
 .navbar-nav>li>a {
@@ -48,4 +39,18 @@
     60% {
         opacity: 0;
     }
+}
+
+
+/*Footer css*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(145, 67, 67);
+    color: white;
+    text-align: center;
 }
