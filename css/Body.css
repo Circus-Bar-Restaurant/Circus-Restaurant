@@ -1,18 +1,18 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-body {                     
-    background-color: #f97777;
-    font-family: 'Calibri';
-    font-family: Verdana, sans-serif;
+body {
+  background-color: #f97777;
+  font-family: "Calibri";
+  font-family: Verdana, sans-serif;
 }
 .mySlides {
-    display: none;
+  display: none;
 }
 img {
-    vertical-align: middle;
-    max-width: 1000px;
-    max-height: 500px;
+  vertical-align: middle;
+  max-width: 1000px;
+  max-height: 500px;
 }
 
 /* Slideshow container */
@@ -28,29 +28,29 @@ img {
   color: #f2f2f2;
   top: 50%;
   font-size: 10px;
-  padding: 4px 6px; 
+  padding: 4px 6px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
   transform: translateY(-50%);
-background-color: rgba(0,0,0,.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.text h5{
-    font-size: 35px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-bottom: 3px;
+.text h5 {
+  font-size: 35px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
 }
 
-.text p{
-    font-size: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    letter-spacing: 1px;
-    font-weight: 300;
-    text-align: center;
+.text p {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-align: center;
 }
 
 /* Number text  */
@@ -93,12 +93,10 @@ background-color: rgba(0,0,0,.8);
   /* display: center; */
   justify-content: center;
   left: 21%;
-  
 }
 .col1,
 .col3 {
   text-align: center;
-  
 }
 
 .box {
@@ -124,7 +122,6 @@ background-color: rgba(0,0,0,.8);
   max-height: 400px;
 }
 
-
 .imran {
   width: 100%;
   height: 100%;
@@ -132,22 +129,26 @@ background-color: rgba(0,0,0,.8);
 }
 /*cris part*/
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-  .footer{
+  .text {
     font-size: 11px;
   }
-  .wrap{
+  .footer {
+    font-size: 11px;
+  }
+  .wrap {
     font-size: 11px;
   }
 }
-
-
 
 /* Kantha CSS code */
 .container1 {
@@ -157,9 +158,8 @@ background-color: rgba(0,0,0,.8);
   position: relative;
 }
 .col {
-float: left;
-width: 33.33%;
-
+  float: left;
+  width: 33.33%;
 }
 h3 {
   font-size: 20px;
@@ -174,14 +174,65 @@ h3 {
 }
 
 .row::after {
-content: "";
-clear: both;
-display: table;
-  
+  content: "";
+  clear: both;
+  display: table;
 }
-.cls1 img{
+.cls1 img {
   max-width: 100%;
   max-height: 100%;
 }
 
+/******* Gallery CSS Stats here ---- Imran worked on it ---- *****/
 
+.container_g {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  /* border: solid 2px; */
+}
+
+.container_g {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px 20px 0px 20px;
+}
+
+.container_g > .heading_g {
+  width: 50%;
+  padding-bottom: 50px;
+}
+.container_g > .heading_g > h3 {
+  font-size: 2em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: solid black 2px;
+}
+
+.container_g .heading_g > h3 > span {
+  font-weight: lighter;
+}
+
+.container_g > .box_g {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container_g > .box_g > .imageClass_g {
+  display: flex;
+  flex-direction: column;
+  max-width: 32.5%;
+}
+
+.container_g > .box_g > .imageClass_g > img {
+  width: 100%;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+/******* Gallery CSS Ends above ---- Imran worked on it ---- *****/
