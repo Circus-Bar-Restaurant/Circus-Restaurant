@@ -202,7 +202,7 @@ h3 {
   margin: 50px 20px 0px 20px;
 }
 
-.container_g > .heading_g {
+.container_g  .heading_g {
   width: 50%;
   padding-bottom: 50px;
 }
@@ -217,7 +217,7 @@ h3 {
   font-weight: lighter;
 }
 
-.container_g > .box_g {
+.container_g  > .box_g {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
