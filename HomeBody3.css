@@ -4,6 +4,7 @@
 .col {
 float: left;
 width: 33.33%;
+border: 1px solid black;
 
 }
 h3{
