@@ -93,31 +93,32 @@ img {
 /*-----------------------------------------------*/
 /**** CSS Starts here / Imran part in home page****/
 
-.main_wrap {
+.i_wrap {
   display: flex;
   flex-direction: row;
   margin: 50px;
 }
-.main_wrap > .col1 {
+.i_wrap > .col1 {
   width: 70%;
   border-radius: 10px;
 }
-.main_wrap .col1 img {
+.i_wrap > .col1 img {
   width: 100%;
   border-radius: 15px;
 }
-.main_wrap > .col3 {
+.i_wrap .col3 {
   margin-left: 10px;
   display: flex;
   flex-direction: column;
   width: 30%;
 }
-.main_wrap .col3 > .box {
-  border: solid 2px #914343;
+.i_wrap .col3 > .box_i {
+  border: 2px solid #914343;
   margin: 3px;
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  text-align: center;
 }
 
 /*-----------------------------------------------*/
@@ -147,14 +148,14 @@ img {
     font-size: 11px;
   }
 }
-
+/*--------------------------------------------*/
 /* Kantha CSS code */
 
 .container1 {
-  background-color: rgb(164, 42, 42);
   display: flex;
   max-width: 100%;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .col {
@@ -162,17 +163,17 @@ img {
   width: 33.33%;
 }
 
-h3 {
+.cls1 > h3 {
   font-size: 20px;
   text-align: center;
   position: relative;
   max-width: 100%;
   max-height: 100%;
+  padding-bottom: 20px;
 }
 
 .cls1 {
   margin: 10px;
-  padding: 20px;
 }
 
 .row::after {
@@ -184,11 +185,11 @@ h3 {
 .cls1 img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 10px;
 }
 /*-----------------------------------------*/
 
-/***Gallary CSS starts here - Imran worked ***/
-
+/*-- ============= Gallery CSS starts ============== -->*/
 .container_g {
   margin: 0;
   padding: 0;
@@ -236,11 +237,11 @@ h3 {
   padding-bottom: 10px;
   border-radius: 10px;
 }
-/***Gallary CSS Ends above this line- Imran worked on it ***/
+/*-- ============= Gallery CSS Ends here ============== -->*/
 
 /*-----------------------------------------*/
 
-/**** About Us CSS starts here - Imran worked ***/
+/*-- =========== About Us CSS starts here ============ -->*/
 
 .container_a {
   margin: 0;
@@ -273,6 +274,7 @@ h3 {
   font-weight: bolder;
   padding-bottom: 10px;
   border-bottom: solid black 2px;
+  text-align: center;
 }
 
 .container_a .heading_a h3 span {
@@ -286,6 +288,7 @@ h3 {
 .container_a > .team_photos {
   display: flex;
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .container_a > .team_photos img {
@@ -293,4 +296,6 @@ h3 {
   max-width: 70%;
 }
 
-/*** About Us CSS Ends Above this line ***/
+/*-- ============= About Us CSS Ends here ============== -->*/
+
+/*----------------------------------------------------------*/
