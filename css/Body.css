@@ -182,6 +182,7 @@ h3 {
   max-width: 100%;
   max-height: 100%;
 }
+/*---------------------------------------*/
 
 /******* Gallery CSS Stats here ---- Imran worked on it ---- *****/
 
@@ -190,10 +191,8 @@ h3 {
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
-  /* border: solid 2px; */
-}
 
-.container_g {
+  /* border: solid 2px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -202,7 +201,7 @@ h3 {
   margin: 50px 20px 0px 20px;
 }
 
-.container_g  .heading_g {
+.container_g .heading_g {
   width: 50%;
   padding-bottom: 50px;
 }
@@ -217,7 +216,7 @@ h3 {
   font-weight: lighter;
 }
 
-.container_g  > .box_g {
+.container_g > .box_g {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -236,3 +235,67 @@ h3 {
 }
 
 /******* Gallery CSS Ends above ---- Imran worked on it ---- *****/
+
+/*-----------------------------------------*/
+
+/***** About US *****  CSS Starts Below ******  Imran worked on it *****/
+
+.container_a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px 20px 0px 20px;
+  /* border: solid 2px; */
+}
+
+/* .container_a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px 20px 0px 20px;
+} */
+
+.container_a .heading_a {
+  width: 30%;
+  padding-bottom: 50px;
+}
+.container_a > .heading_a > h3 {
+  font-size: 2em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: solid black 2px;
+}
+
+.container_a .heading_a h3 span {
+  font-weight: lighter;
+}
+
+.container_a > .box_a {
+  margin-bottom: 30px;
+}
+
+.container_a > .team_photos {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.container_a > .team_photos img {
+  border-radius: 100px;
+  max-width: 70%;
+}
+/* .container_a > .aboutus {
+  
+  max-width: 100%;
+} */
+
+/***** About US *****  CSS Starts Below ******  Imran worked on it *****/
+
+/*-----------------------------------------*/
