@@ -1,15 +1,4 @@
-<<<<<<< HEAD
 /* 
-=======
-.container {
-    max-width: 90%;
-    margin-bottom: 4%;
-    margin-top: 1px;
-}
-
-
-/*
->>>>>>> 836a7453167af5e4c6da31f0fc70003f572d767c
 * {
     box-sizing: border-box;
 }
@@ -17,12 +6,7 @@ body {
     background-color: #f97777;
     font-family: 'Calibri';
     font-family: Verdana, sans-serif;
-<<<<<<< HEAD
 } */
-=======
-}
-
->>>>>>> 836a7453167af5e4c6da31f0fc70003f572d767c
 
 .mySlides {
   display: none;
@@ -34,27 +18,18 @@ img {
   max-height: 500px;
 }
 
-
 /* Slideshow container */
 
 .slideshow-container {
-<<<<<<< HEAD
   max-width: 1000px;
   position: relative;
   margin: auto;
   padding-top: 25px;
-=======
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
->>>>>>> 836a7453167af5e4c6da31f0fc70003f572d767c
 }
-
 
 /* Caption text */
 
 .text {
-<<<<<<< HEAD
   max-width: 40%;
   color: #f2f2f2;
   top: 50%;
@@ -82,76 +57,43 @@ img {
   letter-spacing: 1px;
   font-weight: 300;
   text-align: center;
-=======
-    max-width: 40%;
-    color: #f2f2f2;
-    top: 50%;
-    font-size: 10px;
-    padding: 4px 6px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, .8);
 }
-
-.text h5 {
-    font-size: 35px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-bottom: 3px;
-}
-
-.text p {
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 300;
-    text-align: center;
->>>>>>> 836a7453167af5e4c6da31f0fc70003f572d767c
-}
-
 
 /* Number text  */
 
 .numtext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
-
 
 /* The bullets/indicators */
 
 .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 .active {
-    background-color: #717171;
+  background-color: #717171;
 }
-
 
 /* Fading animation */
 
 .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 /*-----------------------------------------------*/
 /**** CSS Starts here / Imran part in home page****/
 
-<<<<<<< HEAD
 .i_wrap {
   display: flex;
   flex-direction: row;
@@ -182,82 +124,21 @@ img {
 
 /*-----------------------------------------------*/
 /**** CSS Ends above/ Imran part in home page****/
-=======
-
-/*Imran Code*/
-
-.wrap {
-    display: flex;
-    padding: 50px;
-    margin: auto;
-    position: relative;
-    /* display: center; */
-    justify-content: center;
-    left: 10px;
-}
-
-.col1,
-.col3 {
-    text-align: center;
-}
-
-.box {
-    margin: 12px;
-    margin-top: 0;
-    height: 110px;
-    background-color: rgba(151, 32, 52, 0.981);
-    overflow: auto;
-}
-
-.col1 {
-    width: 70%;
-    /* margin-left: 10px; */
-    margin-right: 10px;
-    max-width: 770px;
-    max-height: 400px;
-}
-
-.col3 {
-    width: 30%;
-    margin-right: 10px;
-    padding-top: 0;
-    max-width: 500px;
-    max-height: 500px;
-}
-
-.imran {
-    width: 100%;
-    height: 100%;
-    display: center;
-}
-
->>>>>>> 836a7453167af5e4c6da31f0fc70003f572d767c
 
 /*cris part*/
 
 @keyframes fade {
-<<<<<<< HEAD
   from {
     opacity: 0.4;
   }
   to {
     opacity: 1;
   }
-=======
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
->>>>>>> 836a7453167af5e4c6da31f0fc70003f572d767c
 }
-
 
 /* On smaller screens, decrease text size */
 
 @media only screen and (max-width: 300px) {
-<<<<<<< HEAD
   .text {
     font-size: 11px;
   }
@@ -323,56 +204,6 @@ img {
   align-items: center;
   text-align: center;
   margin: 50px 20px 0px 20px;
-=======
-    .text {
-        font-size: 11px
-    }
-    .footer {
-        font-size: 11px;
-    }
-    .wrap {
-        font-size: 11px;
-    }
-}
-
-
-/* Kantha CSS code */
-
-.container1 {
-    background-color: rgb(164, 42, 42);
-    display: flex;
-    max-width: 100%;
-    position: relative;
-}
-
-.col {
-    float: left;
-    width: 33.33%;
-}
-
-h3 {
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.cls1 {
-    margin: 10px;
-    padding: 20px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.cls1 img {
-    max-width: 100%;
-    max-height: 100%;
->>>>>>> 836a7453167af5e4c6da31f0fc70003f572d767c
 }
 
 .container_g .heading_g {
@@ -386,7 +217,6 @@ h3 {
   border-bottom: solid black 2px;
 }
 
-<<<<<<< HEAD
 .container_g .heading_g > h3 > span {
   font-weight: lighter;
 }
@@ -470,38 +300,3 @@ h3 {
 /*-- ============= About Us CSS Ends here ============== -->*/
 
 /*----------------------------------------------------------*/
-=======
-/* Css for events*/
-
-.carousel-item div {
-    background-color: #f97777 !important;
-}
-
-.card {
-    border: #f97777;
-}
-
-.card div {
-    text-align: justify;
-    color: white;
-}
-
-.card img {
-    height: 260px;
-    width: 340px;
-}
-
-.card-body {
-    margin-left: -15px;
-}
-
-
-/*Display label on Image*/
-
-.image_label {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    text-align: justify;
-}
->>>>>>> 836a7453167af5e4c6da31f0fc70003f572d767c
