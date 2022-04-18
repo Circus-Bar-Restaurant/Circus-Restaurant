@@ -59,29 +59,115 @@
 
     <!-- ============= Container COMPONENT ============== -->
     <!-- Begin page content -->
-    <div class="container" style="max-width: 90%">
+    <div class="container d-flex justify-content-center pt-3 " style="max-width: 90%" >
+        <div class="form-check text-white">
+            <h2><i class="fa fa-calendar" ></i>Circus Booking</h2> <hr><br>
+            
+                <div class="form-body ">
+                 
+                 <!-- OUR FORM ELEMENTS WILL GO HERE -->  
+                 <div class="section">
+                        <label  class="field-label">Please Enter Your Name</label><br>
+                        <input type="text" class="gui-input" placeholder="Name" style="height: 50px; width: 500px;">
+                      
+                  </div>
+                                 
+                  <div class="frm-row">
+                    <div class="section colm colm6">
+                        <label class="field-label">Email Address</label> <br>
+                        <input type="email" class="gui-input" placeholder="example@something.com" style="height: 50px; width: 500px;">
+                        
+                    </div>
+                     
+                    <div class="section colm colm6">
+                        <label class="field-label">Telephone / Mobile</label><br>
+                        <input type="text" class="gui-input" placeholder="Telephone / Mobile Number" style="height: 50px; width: 500px;">
+                        
+                    </div>
+                  </div>
+                   
+                  <div class="frm-row">
+                    <div class="section colm colm6">
+                        <label class="field-label">Number of Adults</label><br>
+                        <input type="number" class="gui-input" style="height: 50px; width: 500px;">
+                        
+                    </div>
+                     
+                    <div class="section colm colm6">
+                      <label for="children" class="field-label">Number of Children</label><br>
+                      <input type="number" class="gui-input" style="height: 50px; width: 500px;">
+                        
+                    </div>
+                  </div>
+                  <br>
 
+                  <div class="spacer-t20 spacer-b30">
+                    <div class="tagline"><span>Seating Options</span></div>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" style="height: 25px; width: 25px;">Front Stage
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" style="height: 25px; width: 25px;">Middle Stage
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio3" name="optradio" style="height: 25px; width: 25px;">Balcony
+                  </div>
+                  <br>
+                   
+                  <div class="frm-row">
+                    <div class="section colm colm6">
+                      <label for="checkin" class="field-label">Date</label><br>
+                      <input type="date" class="gui-input" style="height: 50px; width: 500px;">
+                    </div>
+                  </div>
+                  <br>
+                   
+                  <div class="spacer-t20 spacer-b30">
+                    <div class="tagline"><span>Please selecet show you want</span></div>
+                  </div>
+                   
+                  <div class="frm-row">
+                    <div class="option-group field">
+                     
+                      <div class="section colm colm3"><input type="checkbox" style="height: 25px; width: 25px;">Morning show</div> 
+                      <div class="section colm colm3"><input type="checkbox" style="height: 25px; width: 25px;">Afternoon show </div>
+                      <div class="section colm colm3"><input type="checkbox" style="height: 25px; width: 25px;">Late evening show</div>
+                                 
+                    </div>
+                  </div>
+                  <br> 
+        
+                  <div class="section">
+                    <label class="field-label">Anything else we should know about</label><br>
+                    <textarea class="gui-textarea" placeholder="" style="height: 100px; width: 500px;"></textarea >
+                       
+                  </div>
+                  <br>
+                  <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary ">Get Tickets</button>
+                  </div>                                             
+                   
+            </div>     
+        </div>
     </div>
     <!-- ============= End Container COMPONENT ============== -->
 
     <!-- ============= Footer COMPONENT ============== -->
     
     <!--    Yuran code -->
-    <footer>
-                  
-        <div class="footer">
-            
-          
-            <ul>
-                <p> <strong> ©- 2022 : Circus Restaurant </strong></p>
-               <li>  <a  href="https://www.facebook.com/login.php"> <img class="yuran" src="/Images/facebook.jpg" alt="focebook picture" height="50" width="50"> </a></li>
-                <li> <a href="https://twitter.com/i/flow/login"><img class="yuran"  src="/Images/twitter.png" alt="twitter picture" height="50" width="50"></a></li>
-                <li> <a href="https://www.instagram.com/accounts/login/?hl=en"><img class="yuran"  src="/Images/Instagram.png" alt="instagram picture" height="50" width="50"></a></li>
-                <li> <a href="https://www.youtube.com/"><img class="yuran" src="/Images/youtube.jpg" alt="youtube picture" height="50" width="50"></a></li>
-            </ul>
+    <footer class="footer ">
+        <p class="pull-left">©- 2022 : Circus Restaurant</p>
+        <div class="pull-right">
+            <div class="d-flex justify-content-end">
+                <a class="nav-link " href="https://www.facebook.com/login.php"><i class="fa fa-facebook "></i></a>
+                <a class="nav-link " href="https://twitter.com/i/flow/login"><i class="fa fa-twitter "></i></a>
+                <a class="nav-link " href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa fa-instagram "></i></a>
+                <a class="nav-link " href="https://www.youtube.com/"><i class="fa fa-youtube "></i></a>
+            </div>
         </div>
 
-    </footer> 
+    </footer>
     <!-- ============= End Footer COMPONENT ============== -->
 
 </body>
