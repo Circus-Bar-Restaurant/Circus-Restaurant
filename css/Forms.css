@@ -1,0 +1,68 @@
+body {
+    background-color: #f97777 !important;
+    font-family: 'Calibri';
+}
+
+form h1 {
+    color: white;
+    padding-top: 15px;
+}
+
+
+/* Table booking submit and cancel button*/
+
+div button {
+    margin-right: 4px !important;
+}
+
+
+/* Makes responsive fields. Sets size and field alignment.*/
+
+
+/*
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=password],
+select,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 75%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #fe0000;
+    align-items: center;
+}
+*/
+
+label {
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/*button[type=submit] {
+    margin-bottom: 20px;
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #fe0000;
+    background-color: #fe0000;
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #fe0000;
+}*/
+
+.column {
+    float: right;
+    width: 50%;
+}

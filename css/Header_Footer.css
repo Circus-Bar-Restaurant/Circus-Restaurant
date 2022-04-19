@@ -1,0 +1,103 @@
+/*Navbar css*/
+
+.topnav {
+    background-color: rgb(145, 67, 67);
+}
+
+.navbar-brand-x {
+    margin: -10px 0px -10px 0px;
+}
+
+nav .navbar-nav>li>a {
+    color: #434040;
+}
+
+nav .navbar-nav>li>a:hover,
+nav .navbar-nav>li>a:focus {
+    color: #8a0e0b;
+    background-color: #7c7774;
+}
+
+nav .navbar-nav>.active>a,
+nav .navbar-nav>.active>a:hover,
+nav .navbar-nav>.active>a:focus {
+    color: #8a0e0b;
+    background-color: #4a4746;
+}
+
+.nav-link {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 30px;
+}
+
+.blink-me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    60% {
+        opacity: 0;
+    }
+}
+
+
+/*Footer css*/
+
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(145, 67, 67);
+    color: white;
+    text-align: center;
+} */
+
+
+/*
+.footer p {
+    text-align: left;
+    font-size: xlarge;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.footer li {
+    float: right;
+    margin: 15px;
+}
+
+.footer a:hover {
+    display: inline-block;
+    width: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.yuran {
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    display: inline;
+    text-align: right;
+}
+*/
+
+.footer {
+    font-style: italic;
+    background-color: rgb(145, 67, 67);
+    color: white;
+}
