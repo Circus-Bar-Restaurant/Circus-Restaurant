@@ -188,6 +188,15 @@ img {
   max-height: 100%;
   border-radius: 10px;
 }
+
+@media screen and (max-width:1300px) {  
+  .col-md-4 iframe{
+      height: 230px;
+      width: 100%;
+  }
+}
+
+
 /*-----------------------------------------*/
 
 /*-- ============= Gallery CSS starts ============== -->*/
