@@ -1,3 +1,27 @@
+                        body {
+    background-color: #f97777 !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #a97ff1;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Satisfy", sans-serif !important;
+}
+
+
 /* 
 * {
     box-sizing: border-box;
@@ -9,264 +33,270 @@ body {
 } */
 
 .mySlides {
-  display: none;
+    display: none;
 }
 
 img {
-  vertical-align: middle;
-  max-width: 1000px;
-  max-height: 500px;
+    vertical-align: middle;
+    max-width: 1000px;
+    max-height: 500px;
 }
+
 
 /* Slideshow container */
 
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  padding-top: 25px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-top: 25px;
 }
+
 
 /* Caption text */
 
 .text {
-  max-width: 40%;
-  color: #f2f2f2;
-  top: 50%;
-  font-size: 10px;
-  padding: 4px 6px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.8);
+    max-width: 40%;
+    color: #f2f2f2;
+    top: 50%;
+    font-size: 10px;
+    padding: 4px 6px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .text h5 {
-  font-size: 35px;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin-bottom: 3px;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 3px;
 }
 
 .text p {
-  font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  letter-spacing: 1px;
-  font-weight: 300;
-  text-align: center;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: center;
 }
+
 
 /* Number text  */
 
 .numtext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
+
 
 /* The bullets/indicators */
 
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+    background-color: #717171;
 }
+
 
 /* Fading animation */
 
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
+
+
 /*-----------------------------------------------*/
+
+
 /**** CSS Starts here / Imran part in home page****/
 
 .i_wrap {
-  display: flex;
-  flex-direction: row;
-  margin: 50px;
-}
-.i_wrap > .col1 {
-  width: 70%;
-  border-radius: 10px;
-}
-.i_wrap > .col1 img {
-  width: 100%;
-  border-radius: 15px;
-}
-.i_wrap .col3 {
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-}
-.i_wrap .col3 > .box_i {
-  border: 2px solid #914343;
-  margin: 3px;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin: 30px;
+    height: 100px;
 }
 
+.i_wrap>.col1 {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.i_wrap>.col1 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.i_wrap .col3 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-height: 300px;
+}
+
+.i_wrap .col3>.box_i {
+    border: 2px solid #914343;
+    margin: 3px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
 /*-----------------------------------------------*/
+
+
 /**** CSS Ends above/ Imran part in home page****/
+
 
 /*cris part*/
 
 @keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
 
 /* On smaller screens, decrease text size */
 
 @media only screen and (max-width: 300px) {
-  .text {
-    font-size: 11px;
-  }
-  .footer {
-    font-size: 11px;
-  }
-  .wrap {
-    font-size: 11px;
-  }
+    .text {
+        font-size: 11px;
+    }
+    .footer {
+        font-size: 11px;
+    }
+    .wrap {
+        font-size: 11px;
+    }
 }
+
+
 /*--------------------------------------------*/
+
+
 /* Kantha CSS code */
 
 .container1 {
-  display: flex;
-  max-width: 100%;
-  position: relative;
-  margin-bottom: 50px;
+    /* background-color: rgb(164, 42, 42);*/
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 .col {
-  float: left;
-  width: 33.33%;
+    float: left;
+    width: 33.33%;
 }
 
-.cls1 > h3 {
-  font-size: 20px;
-  text-align: center;
-  position: relative;
-  max-width: 100%;
-  max-height: 100%;
-  padding-bottom: 20px;
+.cls1>h3 {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 20px;
 }
 
 .cls1 {
-  margin: 10px;
+    margin: 10px;
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .cls1 img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 10px;
-}
-
-@media screen and (max-width:1300px) {  
-  .col-md-4 iframe{
-      height: 230px;
-      width: 100%;
-  }
-}
-
-
-/*-----------------------------------------*/
-
-/*-- ============= Gallery CSS starts ============== -->*/
-.container_g {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "poppins", sans-serif;
-
-  /* border: solid 2px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 50px 20px 0px 20px;
-}
-
-.container_g .heading_g {
-  width: 50%;
-  padding-bottom: 50px;
-}
-.container_g > .heading_g > h3 {
-  font-size: 2em;
-  font-weight: bolder;
-  padding-bottom: 10px;
-  border-bottom: solid black 2px;
-}
-
-.container_g .heading_g > h3 > span {
-  font-weight: lighter;
-}
-
-.container_g > .box_g {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.container_g > .box_g > .imageClass_g {
-  display: flex;
-  flex-direction: column;
-  max-width: 32.5%;
-}
-
-.container_g > .box_g > .imageClass_g > img {
-  width: 100%;
-  padding-bottom: 10px;
-  border-radius: 10px;
-}
-/*-- ============= Gallery CSS Ends here ============== -->*/
-
-/*-----------------------------------------*/
-
-/*-- =========== About Us CSS starts here ============ -->*/
-
-.container_a {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 20px 0px 20px;
-  /* border: solid 2px; */
-}
-
-/* .container_a {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    @media screen and (max-width: 1300px) {
+        .col-md-4 iframe {
+            height: 230px;
+            width: 100%;
+        }
+    }
+    /*-----------------------------------------*/
+    /*-- ============= Gallery CSS starts ============== -->*/
+    .container_g {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        /* border: solid 2px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 50px 20px 0px 20px;
+        .container_g .heading_g {
+            width: 50%;
+            padding-bottom: 50px;
+        }
+        .container_g>.heading_g>h3 {
+            font-size: 2em;
+            font-weight: bolder;
+            padding-bottom: 10px;
+            border-bottom: solid black 2px;
+            .container_g .heading_g>h3>span {
+                font-weight: lighter;
+                .container_g>.box_g {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .container_g>.box_g>.imageClass_g {
+                        display: flex;
+                        flex-direction: column;
+                        max-width: 32.5%;
+                        .container_g>.box_g>.imageClass_g>img {
+                            width: 100%;
+                            padding-bottom: 10px;
+                            border-radius: 10px;
+                        }
+                        /*-- ============= Gallery CSS Ends here ============== -->*/
+                        /*-----------------------------------------*/
+                        /*-- =========== About Us CSS starts here ============ -->*/
+                        .container_a {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                            font-family: "poppins", sans-serif;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 50px 20px 0px 20px;
+                            /* border: solid 2px; */
+                        }
+                        /* .container_a {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -274,38 +304,31 @@ img {
     text-align: center;
     margin: 50px 20px 0px 20px;
   } */
-
-.container_a .heading_a {
-  width: 30%;
-  padding-bottom: 50px;
-}
-.container_a > .heading_a > h3 {
-  font-size: 2em;
-  font-weight: bolder;
-  padding-bottom: 10px;
-  border-bottom: solid black 2px;
-  text-align: center;
-}
-
-.container_a .heading_a h3 span {
-  font-weight: lighter;
-}
-
-.container_a > .box_a {
-  margin-bottom: 30px;
-}
-
-.container_a > .team_photos {
-  display: flex;
-  margin-bottom: 100px;
-  text-align: center;
-}
-
-.container_a > .team_photos img {
-  border-radius: 100px;
-  max-width: 70%;
-}
-
-/*-- ============= About Us CSS Ends here ============== -->*/
-
-/*----------------------------------------------------------*/
+                        .container_a .heading_a {
+                            width: 30%;
+                            padding-bottom: 50px;
+                        }
+                        .container_a>.heading_a>h3 {
+                            font-size: 2em;
+                            font-weight: bolder;
+                            padding-bottom: 10px;
+                            border-bottom: solid black 2px;
+                            text-align: center;
+                        }
+                        .container_a .heading_a h3 span {
+                            font-weight: lighter;
+                        }
+                        .container_a>.box_a {
+                            margin-bottom: 30px;
+                        }
+                        .container_a>.team_photos {
+                            display: flex;
+                            margin-bottom: 100px;
+                            text-align: center;
+                        }
+                        .container_a>.team_photos img {
+                            border-radius: 100px;
+                            max-width: 70%;
+                        }
+                        /*-- ============= About Us CSS Ends here ============== -->*/
+                        /*----------------------------------------------------------*/

@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+body {
+    background-color: #f97777 !important;
+   
+}
+
+>>>>>>> master
 form h1 {
     color: white;
     padding-top: 15px;
@@ -32,13 +40,13 @@ textarea {
 }
 */
 
-label {
+/*label {
     color: white;
 }
 
 textarea {
     resize: none;
-}
+}*/
 
 
 /*button[type=submit] {
@@ -57,188 +65,10 @@ button[type=submit]:hover {
     background-color: #fe0000;
 }*/
 
-
 /*.column {
     float: right;
     width: 50%;
-}*/
-
-
-/*Feedback css part begins*/
-
-#feedbackBody {
-    background-color: rgb(190, 84, 84);
-    justify-content: center;
-    text-align: center;
-    display: flex;
-}
-
-.container-k {
-    width: 500px;
-}
-
-.container-k form {
-    width: 100%;
-    text-align: center;
-    padding: 25px;
-    margin: 10px;
-}
-
-.container-k form h2 {
-    padding: 10px;
-    color: white;
-}
-
-.form-k {
-    position: relative;
-}
-
-#feedbackForm input {
-    border: 1px solid black;
-    font-size: 15px;
-    padding-right: 50px;
-    border-radius: 5px;
-}
-
-#feedbackForm textarea {
-    border: 1px solid black;
-    font-size: 15px;
-    border-radius: 5px;
-}
-
-.button-k {
-    margin-top: 10px;
-    font-size: 20px;
-    background-color: rgb(77, 77, 183);
-    padding-left: 40px;
-    margin-bottom: 4px;
-}
-
-.fa-star {
-    color: rgb(234, 224, 224);
-    font-size: 40px;
-}
-
-.form-k i {
-    position: relative;
-    font-size: 20px;
-    left: 100px;
-    transform: translateY(-100%);
-}
-
-
-/* Contact Us page css */
-
-#contactusbody body {
-    display: flex;
-}
-
-.container-k1 {
-    justify-content: center;
-    text-align: center;
-}
-
-.row-k1 {
-    justify-content: center;
-    text-align: center;
-    display: flex;
-}
-
-.msg-k1 {
-    white-space: pre;
-    font-weight: 500;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    text-align: center;
-    justify-content: center;
-}
-
-.msg-k1 i {
-    margin-right: 10px;
-    color: black;
-    font-size: 15px;
-}
-
-.icon-k1 {
-    color: black;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-#contactMainDiv .col-sm-12 .col-md-6 {
-    justify-content: center;
-    text-align: center;
-    /*float: left;
-    width: 50%;*/
-}
-
-#contactMainDiv h4 {
-    text-align: center;
-    justify-content: center;
-    color: rgb(179, 56, 56);
-    font-style: italic;
-}
-
-#contactMainDiv h2 {
-    text-align: center;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#contactMainDiv p {
-    text-align: center;
-    justify-content: center;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-.row-k1 li {
-    display: inline;
-    text-align: center;
-}
-
-.contact-k1 {
-    color: black;
-    margin: 20px;
-    justify-content: center;
-    text-align: center;
-}
-
-.contact-k1 label {
-    font-size: 15px;
-    margin: 5px 10px 10px 40px;
-    padding: 10px;
-    font-weight: 500;
-}
-
-.contact-k1 input {
-    padding: 1px;
-    border-radius: 5PX;
-    width: 200px;
-}
-
-.submit-k1 {
-    margin: 10px 200px 100px;
-    border: 1px solid black;
-    width: 100px;
-    height: 30px;
-    background-color: rgba(94, 79, 197, 0.527);
-    text-align: center;
-    border-radius: 5PX;
-}
-
-.submit-k1:hover {
-    background-color: rgb(129, 224, 129);
-}
-
-.textarea-k1 {
-    padding: 20px;
-    margin-left: 80px;
-    background: none;
-    border: 1px solid black;
-    border-radius: 5PX;
+<<<<<<< HEAD
 }
 
 
@@ -746,3 +576,175 @@ button[type=submit]:hover {
         background-attachment: fixed;
     }
 }
+=======
+}*/
+
+/*Feedback css part begins*/
+
+body{
+    background-color: rgb(190, 84, 84);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+.container-k{
+    width: 500px;
+    
+}
+.container-k form{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    
+}
+.container-k form h2{
+    padding: 10px;
+    color: white;
+}
+.form-k{
+    position: relative;
+}
+form input{   
+    border: 1px solid black;
+    font-size: 15px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+form textarea{
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.button-k{
+    margin-top: 10px;
+    font-size: 20px;
+    background-color:rgb(77, 77, 183);
+    padding-left: 40px;
+    margin-bottom: 4px;
+}
+.fa-star{
+    color: rgb(234, 224, 224);
+    font-size: 40px;
+}
+.form-k i{
+    position: relative;
+    font-size: 20px;
+    left: 100px;
+    transform: translateY(-100%);
+}
+
+
+/* Contact Us page css */
+body{
+      
+    display: flex;
+} 
+.container-k1{
+    
+    justify-content: center;
+    text-align: center;
+    
+}
+.row-k1{
+        
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}   
+.msg-k1{
+    white-space: pre;
+    font-weight: 500;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.msg-k1 i{
+    margin-right: 10px;
+    color:black;
+    font-size: 15px;
+    
+}
+.icon-k1{
+    color: black;
+    font-size: 18px;
+    text-transform:uppercase;
+    font-weight: 600;
+    
+}
+.col-sm-12 .col-md-6{
+    
+    justify-content: center;
+    text-align: center;
+    /*float: left;
+    width: 50%;*/
+}
+h4{
+    text-align: center;
+    justify-content: center;
+    color: rgb(179, 56, 56);
+    font-style: italic;    
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+p{
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;    
+}
+
+.row-k1 li{
+    display: inline;
+    text-align: center;
+    
+}
+.contact-k1{
+    color: black;   
+    margin: 20px; 
+    justify-content: center;
+    text-align: center;  
+}
+.contact-k1 label{
+
+    font-size: 15px;
+    margin: 5px 10px 10px 40px;
+    padding: 10px;
+    font-weight: 500;
+
+}
+.contact-k1 input{
+padding: 1px;
+border-radius: 5PX;
+width: 200px;
+
+}
+.submit-k1{
+   
+    margin:10px 200px 100px;
+    border: 1px solid black;
+    width:100px;
+    height: 30px;
+    background-color: rgba(94, 79, 197, 0.527);
+    text-align: center;
+    border-radius: 5PX;
+}
+.submit-k1:hover{
+    background-color: rgb(129, 224, 129);
+}
+.textarea-k1{
+    padding: 20px;
+    margin-left: 80px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5PX;
+}
+>>>>>>> master

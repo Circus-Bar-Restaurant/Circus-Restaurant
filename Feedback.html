@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="CSS/Body.css">
     <link rel="stylesheet" href="CSS/Forms.css">
     <link href="CSS/Header_Footer.css" rel="stylesheet">
-    
+
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function() {
             navbar_height = document.querySelector('.navbar.fixed-top').offsetHeight;
@@ -18,7 +18,7 @@
     </script>
 </head>
 
-<body>
+<body id="feedbackBody">
     <!-- ============= Header COMPONENT ============== -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark justify-content-center topnav">
         <div class="container-fluid">
@@ -60,21 +60,21 @@
     <!-- ============= Container COMPONENT ============== -->
     <!-- Begin page content -->
     <div class="container-k">
-        <form>
-           <h2>Your Feedback matters a lot!!</h2>
-           <div class="form-k">
-               <input type="text" class="form-in" placeholder="Your Name" ><br>
-               <i class="fa fa-user"></i><br>
-           </div>
-           <div class="form-k">
-            <input type="text" class="form-in" placeholder="Your Email"><br>
-            <i class="fa fa-envelope"></i><br>
+        <form id="feedbackForm">
+            <h2>Your Feedback matters a lot!!</h2>
+            <div class="form-k">
+                <input type="text" class="form-in" placeholder="Your Name"><br>
+                <i class="fa fa-user"></i><br>
+            </div>
+            <div class="form-k">
+                <input type="text" class="form-in" placeholder="Your Email"><br>
+                <i class="fa fa-envelope"></i><br>
             </div>
             <div class="form-k">
                 <p>Did you satisfied with our services</p>
                 <p>Yes &nbsp;<input class="d-inline-flex flex-row" type="radio" name="1"></p>
                 <p>No &nbsp;&nbsp;<input class="d-inline-flex flex-row" type="radio" name="1"></p>
-                
+
             </div>
             <div class="rating-k">
                 <p>How many Stars will you prefer to give?</p>
@@ -86,41 +86,41 @@
             </div>
             <textarea rows="7" cols="40" placeholder="Write your opinion Here"></textarea><br>
             <div class="form-k">
-            <input type="button" name="btnsubmit" class="button-k" value="Send Feedback"></div>
-            
-        
+                <input type="button" name="btnsubmit" class="button-k" value="Send Feedback"></div>
+
+
         </form>
-        </div>
-    
+    </div>
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script type="text/javascript">   
-        $(document).ready(function(){
-            $("#s1").click(function(){
-                $(".fa-star").css("color","black")
-                $("#s1").css("color","orange")
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#s1").click(function() {
+                $(".fa-star").css("color", "black")
+                $("#s1").css("color", "orange")
             })
-            $("#s2").click(function(){
-                $(".fa-star").css("color","black")
-                $("#s1,#s2").css("color","orange")
+            $("#s2").click(function() {
+                $(".fa-star").css("color", "black")
+                $("#s1,#s2").css("color", "orange")
             })
-            $("#s3").click(function(){
-                $(".fa-star").css("color","black")
-                $("#s1,#s2,#s3").css("color","orange")
+            $("#s3").click(function() {
+                $(".fa-star").css("color", "black")
+                $("#s1,#s2,#s3").css("color", "orange")
             })
-            $("#s4").click(function(){
-                $(".fa-star").css("color","black")
-                $("#s1,#s2,#s3,#s4").css("color","prange")
+            $("#s4").click(function() {
+                $(".fa-star").css("color", "black")
+                $("#s1,#s2,#s3,#s4").css("color", "prange")
             })
-            $("#s5").click(function(){
-                $(".fa-star").css("color","black")
-                $(".fa-star").css("color","orange")
+            $("#s5").click(function() {
+                $(".fa-star").css("color", "black")
+                $(".fa-star").css("color", "orange")
             })
         })
-</script>
+    </script>
     <!-- ============= End Container COMPONENT ============== -->
 
     <!-- ============= Footer COMPONENT ============== -->
-    
+
     <!--    Yuran code -->
     <footer class="footer fixed-bottom">
         <p class="pull-left">©- 2022 : Circus Restaurant</p>
