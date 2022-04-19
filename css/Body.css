@@ -206,7 +206,7 @@ img {
 /* Kantha CSS code */
 
 .container1 {
-    background-color: rgb(164, 42, 42);
+    /* background-color: rgb(164, 42, 42);*/
     display: flex;
     max-width: 100%;
     position: relative;
