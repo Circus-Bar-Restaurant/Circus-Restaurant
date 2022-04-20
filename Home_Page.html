@@ -31,11 +31,11 @@
 
         <div class="collapse navbar-collapse" id="main_nav">
             <ul class="navbar-nav  w-100 justify-content-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="Home_Page.html"><i class="fa fa-home"></i>Home</a>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="Home_Page.html"><i class="fa fa-home"></i>Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Food_Menu.html"><i class="fa fa-fw fa-cutlery"></i>Menu</a>
+                    <a class="nav-link " href="Food_Menu.html"><i class="fa fa-fw fa-cutlery"></i>Menu</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Gallery.html"><i class="fa fa-fw fa-photo"></i>Gallery</a>
@@ -73,37 +73,52 @@
         <div class="slideshow-container" >
 
             <div class="mySlides fade">
-                <div class="numtext">1 / 3</div>
+                <!-- <div class="numtext">1 / 4</div> -->
                 <img src="Images/Img_2.jpg" style="width:100%">
                 <div class="text">
-                    <h5>Circus Show</h5>
-                    <p> <span>Presenting the acrobatic shows<br>
-                    with John Smith and company</span> </p></div>
+                    <h5>Circus <br>
+                        Restaurant</h5>
+                    <p> <span>Circus is a unique and quirky <br>
+                        cabaret restaurant and cocktail bar <br>
+                        in the heart of Stockholm</span> </p></div>
             </div>
 
             <div class="mySlides fade">
-                <div class="numtext">2 / 3</div>
+                <!-- <div class="numtext">2 / 4</div> -->
                 <img src="Images/Img_1.jpg" style="width:100%">
                 <div class="text">
                     <h5>Circus Show</h5>
-                    <p> <span>Presenting the acrobatic shows<br>
-                    with John Smith and company</span> </p></div>
+                    <p> <span>Expect the unexpected as you see <br>
+                        aerialists, contortionists, hand balancers, <br>
+                        fire-breathers, hula-hoopers <br>
+                        and much more. </span> </p></div>
             </div>
 
             <div class="mySlides fade">
-                <div class="numtext">3 / 3</div>
+                <!-- <div class="numtext">3 / 4</div> -->
                 <img src="Images/Img_3.jpg" style="width:100%">
-                <div class="text"><h5>Circus Show part 2</h5>
-                    <p> <span>Presenting the fire shows<br>
-                    with Ana Li and company</span> </p></div>
+                <div class="text"><h5>Amazing Entertainment </h5>
+                    <p> <span>Circus is a restaurant and <br> show with a difference, brought to life by <br> amazing and outrageous pop-up circus.
+                    </span> </p></div>
+            </div>
+            <div class="mySlides fade">
+                <!-- <div class="numtext">4 / 4</div> -->
+                <img src="Images/Img_5.jpg" style="width:100%">
+                <div class="text"><h5>Amazing <br>Food Menus</h5>
+                    <p> <span>Our highly popular Pan-Asian menu <br> 
+                        (vegan menu available) High quality food, <br> 
+                        amazing service and great entertainment.<br>
+                    </span> </p></div>
             </div>
             <br>
             <div style="text-align:right">
                 <span class="dot"></span> 
                 <span class="dot"></span> 
                 <span class="dot"></span> 
+                <span class="dot"></span> 
                 <div class="column" style="text-align:center">
-                    <button type="submit" style="width:50%; ">Book for Circus Show</button>
+                    <button type="submit" id="circusbtn" class="fa fa-fw fa-calendar"> 
+                        <a href="Circus_Booking.html" class="link-light">  Book for Circus Show </a> </button>
                 </div>
             </div>
         </div>
@@ -114,30 +129,36 @@
         <br> 
 
         <!--Imran code    -->
-        <div>
-            <div class="wrap" >
+        <div class="container2">
+            <div class="i_wrap" >
                     <!-- two column layout - Imran's Part-->
                 
                     <section class="col1">
                         <div>
                         <a href="https://food.com/">
-                        <img class="imran" src="Images/food3.jpg">
+                        <img class="imran_img" src="Images/food3.jpg">
                         </a>
                         </div>
                     
                     </section>
 
                     <section class="col3">
-                        <div class="box"  >
-                        <h2>About <span>us</span></h2>
-                        <figure></figure>
-                        <a href="#" class="button1">Read More</a>
-                        </div>
-                        <div class="box">
-                        <h2>Advertisement</span></h2>
-                        <figure></figure>
-                        <a href="#" class="button1">Read More</a>
-                        </div>
+                        <div class="box_i">
+                            <h4 class="i_h4"> <a href="About_Us.html" class="link-light">About us </a></h4>
+                            <p class="imran_p">
+                              We are an amazing team of 5 people named, <br> Cristine, Kanta,
+                              Yuran and Mallika.
+                            </p>
+                          </div>
+                          <div class="box_i">
+                            <h4 class="i_h4">Advertisment</h4>
+              
+                            <p class="imran_p">
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                              <br> Perferendis suscipit sit consectetur sequi, et corrupti d
+                              <br> <a href="Circus_Events.html" class="link-light"> Click here to see our upcoming Events</a>
+                            </p>
+                          </div>
                         
                     </section>
                 
@@ -153,23 +174,26 @@
                 <div class="col" >
                     <div class="cls1">
                     
-                    <h3>Location</h3>
-                    <a href="https://www.google.com/maps/place/Restaurang+Drama" ><img src="/Images/map1.png " >
-                    </a>
+                    <h3 class="K_h3">Location</h3>
+                    <!-- <a href="https://www.google.com/maps/place/Restaurang+Drama" ><img class="K_img" src="/Images/map1.png " >
+                    </a> -->
+
+                    <iframe class="K_img" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8130.811787093761!2d18.0032353!3d59.3712965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4fa1c22016095d9!2sRestaurang%20Drama!5e0!3m2!1sen!2sse!4v1649924606257!5m2!1sen!2sse"
+                      height="270px" width="410px" style="border-radius: 10px;" ></iframe>
                     </div>
 
                 </div>
                 <div class="col"  >
                     <div class="cls1">
-                    <h3>Events</h3>
-                    <a href="#" ><img src="Images/circus.jpg" ></a>
+                    <h3 class="K_h3">Events</h3>
+                    <a href="Circus_Events.html" ><img  class="K_img" src="Images/circus.jpg" ></a>
                     
                     </div>
                 </div>
                 <div class="col" >
                     <div class="cls1">
-                    <h3>Feedback</h3>
-                    <a href="#"><img src="Images/feedback.jpeg" ></a>
+                    <h3 class="K_h3">Feedback</h3>
+                    <a href="Feedback.html"><img class="K_img" src="Images/feedback.jpeg" ></a>
                             
                     </div>
                 </div>
@@ -182,21 +206,18 @@
     <!-- ============= Footer COMPONENT ============== -->
    
     <!--    Yuran code -->
-       <footer>
-                  
-                <div class="footer">
-                    
-                  
-                    <ul>
-                        <p> <strong> ©- 2022 : Circus Restaurant </strong></p>
-                       <li>  <a  href="https://www.facebook.com/login.php"> <img class="yuran" src="/Images/facebook.jpg" alt="focebook picture" height="50" width="50"> </a></li>
-                        <li> <a href="https://twitter.com/i/flow/login"><img class="yuran"  src="/Images/twitter.png" alt="twitter picture" height="50" width="50"></a></li>
-                        <li> <a href="https://www.instagram.com/accounts/login/?hl=en"><img class="yuran"  src="/Images/Instagram.png" alt="instagram picture" height="50" width="50"></a></li>
-                        <li> <a href="https://www.youtube.com/"><img class="yuran" src="/Images/youtube.jpg" alt="youtube picture" height="50" width="50"></a></li>
-                    </ul>
-                </div>
+    <footer class="footer fixed-bottom">
+        <p class="pull-left ">©- 2022 : Circus Restaurant</p>
+        <div class="pull-right">
+            <div class="d-flex justify-content-end">
+                <a class="nav-link " href="https://www.facebook.com/login.php"><i class="fa fa-facebook "></i></a>
+                <a class="nav-link " href="https://twitter.com/i/flow/login"><i class="fa fa-twitter "></i></a>
+                <a class="nav-link " href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa fa-instagram "></i></a>
+                <a class="nav-link " href="https://www.youtube.com/"><i class="fa fa-youtube "></i></a>
+            </div>
+        </div>
 
-        </footer> 
+    </footer>
     </body>
     
     <!-- JS for slideshow -->
@@ -219,7 +240,7 @@
             }
             slides[slideIndex-1].style.display = "block";  
             dots[slideIndex-1].className += " active";
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
+            setTimeout(showSlides, 6000); // Change image every 2 seconds
             }
             </script>
 </html> 

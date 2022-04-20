@@ -18,7 +18,7 @@
     </script>
 </head>
 
-<body>
+<body id="feedbackBody">
     <!-- ============= Header COMPONENT ============== -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark justify-content-center topnav">
         <div class="container-fluid">
@@ -39,8 +39,8 @@
                         <a class="nav-link" href="Gallery.html"><i class="fa fa-fw fa-photo"></i>Gallery </a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="Contact_Us.html"><i class="fa fa-fw fa-phone-square"></i> Contact </a></li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="About_Us.html"><i class="fa fa-fw fa-info-circle"></i>About Us</a>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="About_Us.html"><i class="fa fa-fw fa-info-circle"></i>About Us</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav w-100 justify-content-end">
@@ -59,29 +59,91 @@
 
     <!-- ============= Container COMPONENT ============== -->
     <!-- Begin page content -->
-    <div class="container" style="max-width: 90%">
-
+    <div class="container d-flex justify-content-center pt-3 " style="max-width: 90%" >
+        <div class="d-flex justify-content-center">
+        <div class="container-k">
+            <form id="feedbackForm">
+            <h2 class="feedback_h2">Your Feedback matters a lot!!</h2>
+            <br>
+            <div class="form-k" >
+                <input type="text" class="fb_texbox form-in"  placeholder="Your Name" ><br>
+                <i class="feedback_i fa fa-user"  ></i><br>
+            </div>
+            <div class="form-k" >
+                <input type="text" class=" fb_texbox form-in"  placeholder="Your Email" ><br>
+                <i class="feedback_i fa fa-envelope" ></i><br>
+            </div>
+            <br>
+                <div class="form-k" style="color:white">
+                    <p class="feedback_p">Did you satisfied with our services</p>
+                    
+                    <div class="fb_radiobtn">
+                    
+                    Yes &nbsp;<input class="d-inline-flex flex-row" type="radio" name="1" style="height: 20px; width: 20px; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; &nbsp; No &nbsp;<input class="d-inline-flex flex-row" type="radio" name="1" style="height: 20px; width: 20px; ">                   
+                    </div>
+                    <br><br>
+                </div>
+                <div class="rating-k" style="color:white">
+                    <p class="feedback_p">How many Stars will you prefer to give?</p>
+                    <span class="fa fa-star" aria-hidden="true" id="s1"></span>
+                    <span class="fa fa-star" id="s2"></span>
+                    <span class="fa fa-star" id="s3"></span>
+                    <span class="fa fa-star" id="s4"></span>
+                    <span class="fa fa-star" id="s5"></span>
+                </div>
+                <br>
+                <textarea class="feedback_textarea" rows="7" cols="40" placeholder="Write your opinion Here"></textarea><br>
+                <div class="form-k"><br>
+                <input type="button" name="btnsubmit" class="button-k btn btn-primary" value="Send Feedback"></div>
+                
+            
+            </form>
+        </div>
+        </div>
     </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript">   
+        $(document).ready(function(){
+            $("#s1").click(function(){
+                $(".fa-star").css("color","black")
+                $("#s1").css("color","orange")
+            })
+            $("#s2").click(function(){
+                $(".fa-star").css("color","black")
+                $("#s1,#s2").css("color","orange")
+            })
+            $("#s3").click(function(){
+                $(".fa-star").css("color","black")
+                $("#s1,#s2,#s3").css("color","orange")
+            })
+            $("#s4").click(function(){
+                $(".fa-star").css("color","black")
+                $("#s1,#s2,#s3,#s4").css("color","prange")
+            })
+            $("#s5").click(function(){
+                $(".fa-star").css("color","black")
+                $(".fa-star").css("color","orange")
+            })
+        })
+</script>
     <!-- ============= End Container COMPONENT ============== -->
 
     <!-- ============= Footer COMPONENT ============== -->
     
     <!--    Yuran code -->
-    <footer>
-                  
-        <div class="footer">
-            
-          
-            <ul>
-                <p> <strong> ©- 2022 : Circus Restaurant </strong></p>
-               <li>  <a  href="https://www.facebook.com/login.php"> <img class="yuran" src="/Images/facebook.jpg" alt="focebook picture" height="50" width="50"> </a></li>
-                <li> <a href="https://twitter.com/i/flow/login"><img class="yuran"  src="/Images/twitter.png" alt="twitter picture" height="50" width="50"></a></li>
-                <li> <a href="https://www.instagram.com/accounts/login/?hl=en"><img class="yuran"  src="/Images/Instagram.png" alt="instagram picture" height="50" width="50"></a></li>
-                <li> <a href="https://www.youtube.com/"><img class="yuran" src="/Images/youtube.jpg" alt="youtube picture" height="50" width="50"></a></li>
-            </ul>
+    <footer class="footer fixed-bottom">
+        <p class="pull-left">©- 2022 : Circus Restaurant</p>
+        <div class="pull-right">
+            <div class="d-flex justify-content-end">
+                <a class="nav-link " href="https://www.facebook.com/login.php"><i class="fa fa-facebook "></i></a>
+                <a class="nav-link " href="https://twitter.com/i/flow/login"><i class="fa fa-twitter "></i></a>
+                <a class="nav-link " href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa fa-instagram "></i></a>
+                <a class="nav-link " href="https://www.youtube.com/"><i class="fa fa-youtube "></i></a>
+            </div>
         </div>
 
-    </footer> 
+    </footer>
     <!-- ============= End Footer COMPONENT ============== -->
 
 </body>

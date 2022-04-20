@@ -18,7 +18,7 @@
     </script>
 </head>
 
-<body>
+<body id="contactusbody">
     <!-- ============= Header COMPONENT ============== -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark justify-content-center topnav">
         <div class="container-fluid">
@@ -38,7 +38,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Gallery.html"><i class="fa fa-fw fa-photo"></i>Gallery</a>
                     </li>
-                    <li class="nav-item active"><a class="nav-link" href="Contact_Us.html"><i class="fa fa-fw fa-phone-square"></i>Contact</a></li>
+                    <li class="nav-item "><a class="nav-link active" href="Contact_Us.html"><i class="fa fa-fw fa-phone-square"></i>Contact</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="About_Us.html"><i class="fa fa-fw fa-info-circle"></i>About Us</a>
                     </li>
@@ -59,29 +59,66 @@
 
     <!-- ============= Container COMPONENT ============== -->
     <!-- Begin page content -->
-    <div class="container" style="max-width: 90%">
-
-    </div>
+    <div class="container d-flex justify-content-center pt-3 " style="max-width: 90%" >
+        <div class="d-flex justify-content-center">
+            <div class="container-k1" >
+                <h2 class="contact_h2">CONNECT WITH US</h2>
+                <p id="contactus_p">Feel free to contact us for any information or queries</p>
+                
+                <div class="row-k1">
+                    <div class="col-md-6 col-sm-12">
+                        <h4 style="margin-left:150px;" class="contact_h2">REACH US</h4>
+                        <p class="msg-k1" id="contactus_p">
+                        <span class="icon-k1" style="color: black;"><i class="fa fa-map-marker"></i> Location</span>
+                        Westfield Mall of Scandinavia
+                        169 79 Solna
+                        Stockholm </p>   
+                        <p class="msg-k1" id="contactus_p">
+                        <span class="icon-k1" style="padding: 30px;">CONTACT</span>
+                        <i class="fa fa-phone"></i> +46 76 10 10
+                        <i class="fa fa-envelope"></i> info@vinduvinodham.se </p>
+                        <p class="msg-k1" id="contactus_p">
+                        <i class="fa fa-clock-o"></i><span class="icon-k1">Open Hours</span>
+                        Mon-Thurs&emsp;&emsp;11:30-22:30
+                        Friday  &emsp;&emsp;&emsp;10:30-23:30
+                        Saturday&emsp;&emsp;&emsp;10:30-23:30
+                        Sunday &emsp;&emsp;&emsp; 11:30-22:30
+                        </p>
+                    
+                </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h4 class="contact_h4">SEND MESSAGE</h4>
+            
+                        <form class="contact-k1">
+                            <label class="contactus_label" for="Fname">Name</label>
+                            <input type="text" placeholder="FullName" required><br>
+                            <label class="contactus_label" for="email">E-Mail</label>
+                            <input type="email" id="email" name="email1" placeholder="E-MailAddress"><br><br>
+                            <textarea class="textarea-k1" name="Text1" cols="30" rows="4" placeholder="Write your message here...."></textarea><br>    
+                            <input id="submit-k1" class="btn btn-primary"  type="submit" value="SEND"><br>               
+                        </form>
+                    </div>
+                </div> 
+            </div> 
+        </div> 
+    </div>                                       
     <!-- ============= End Container COMPONENT ============== -->
 
     <!-- ============= Footer COMPONENT ============== -->
     
     <!--    Yuran code -->
-    <footer>
-                  
-        <div class="footer">
-            
-          
-            <ul>
-                <p> <strong> ©- 2022 : Circus Restaurant </strong></p>
-               <li>  <a  href="https://www.facebook.com/login.php"> <img class="yuran" src="/Images/facebook.jpg" alt="focebook picture" height="50" width="50"> </a></li>
-                <li> <a href="https://twitter.com/i/flow/login"><img class="yuran"  src="/Images/twitter.png" alt="twitter picture" height="50" width="50"></a></li>
-                <li> <a href="https://www.instagram.com/accounts/login/?hl=en"><img class="yuran"  src="/Images/Instagram.png" alt="instagram picture" height="50" width="50"></a></li>
-                <li> <a href="https://www.youtube.com/"><img class="yuran" src="/Images/youtube.jpg" alt="youtube picture" height="50" width="50"></a></li>
-            </ul>
+    <footer class="footer fixed-bottom">
+        <p class="pull-left">©- 2022 : Circus Restaurant</p>
+        <div class="pull-right">
+            <div class="d-flex justify-content-end">
+                <a class="nav-link " href="https://www.facebook.com/login.php"><i class="fa fa-facebook "></i></a>
+                <a class="nav-link " href="https://twitter.com/i/flow/login"><i class="fa fa-twitter "></i></a>
+                <a class="nav-link " href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa fa-instagram "></i></a>
+                <a class="nav-link " href="https://www.youtube.com/"><i class="fa fa-youtube "></i></a>
+            </div>
         </div>
 
-    </footer> 
+    </footer>
     <!-- ============= End Footer COMPONENT ============== -->
 
 </body>
