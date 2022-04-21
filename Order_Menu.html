@@ -32,6 +32,10 @@
             document.body.style.paddingTop = navbar_height + 'px';
         });
     </script>
+
+    <script src="js/isotope.pkgd.min.js">
+    </script>
+    <script src="js/main.js"></script>
 </head>
 <body>
   <!-- ============= Header COMPONENT ============== -->
@@ -160,7 +164,7 @@
 <!-- <div id="food_Menu" name="food_Menu" class="food_Menu" style="height: 100h;"> -->
 
   <div style="display: inline; text-align: center; float: right; padding-top: 160px;">
-    <section class="container content-section">
+    <section class="container content-section" >
       <h3 class=" order_h3 section-header">CART</h3>
       <div class="cart-row">
         <span class="cart-item cart-header cart-column">ITEM</span>
@@ -170,11 +174,14 @@
       <div class="cart-items " >
 
       </div>
-      <div class="cart-total">
+      <div class="cart-total pull-right" >
           <strong class="cart-total-title" style="font-size: 22px;">TOTAL:</strong>
-          <span class="cart-total-price" style="font-size: 22px; font-weight: 700;"> &nbsp; 0 Kr &nbsp;</span>
+          <span class="cart-total-price" style="font-size: 22px; font-weight: 700; margin-bottom: 50px;"> &nbsp; 0 Kr &nbsp;</span>
+      
+      <div class="btn pull-right" >
+      <button class="btn btn-primary btn-order " type="button" >ORDER</button>
       </div>
-      <button class="btn btn-primary btn-order" type="button" style="margin-top: 20px;">ORDER</button>
+    </div>
     </section>
   </div>
 
@@ -531,7 +538,5 @@ document.getElementsByClassName('cart-total-price')[0].innerText = total +  ' kr
 }
 </script>
 
-<script src="js/isotope.pkgd.min.js">
-</script>
-<script src="js/main.js"></script>
+
 </html>
