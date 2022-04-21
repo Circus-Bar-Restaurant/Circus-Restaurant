@@ -24,7 +24,6 @@ h6 {
     font-family: "Satisfy", sans-serif !important;
 }
 
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1300px;
@@ -34,7 +33,6 @@ h6 {
   width: 1300px;
  
 }
-
 
 /* Caption text */
 .text {
@@ -80,22 +78,20 @@ background-color: rgba(0,0,0,.85);
   top: 0;
 }*/
 
-
 /* The bullets/indicators */
 .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 .active {
-    background-color: #717171;
+  background-color: #717171;
 }
-
 
 /* Fading animation */
 .fade {
@@ -113,19 +109,47 @@ background-color: rgba(0,0,0,.85);
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 900px) and (max-width: 600px) and (max-width: 300px) {
+  
   .text {font-size: 11px}
   .footer{
     font-size: 11px;
   }
-  .wrap{
+  .i_wrap{
+    font-size: 11px;
+    
+  }
+  /* .container1{ 
+    font-size: 11px;
+    width: 100%;
+    height: 50%;
+  } */
+  .container2{ 
+    font-size: 11px;
+    width: 100%;
+    height: 50%;
+  }
+  .col3 {
+    width: 50%;
+    height: 50%;
     font-size: 11px;
   }
+  .col1 {
+    width: 50%;
+    height: 30%;
+    font-size: 11px;
+  }
+  .container1 .col
+{
+  width: 10%;
+  height: 10%;
+  font-size: 11px;
+}
 }
 
+
+
 /*-----------------------------------------------*/
-
-
 /**** CSS Starts here / Imran part in home page****/
 
 /* .i_wrap {
@@ -198,6 +222,7 @@ background-color: rgba(0,0,0,.85);
   display: flex;
   flex-direction: column;
   width: 30%;
+  
 }
 .i_wrap .col3 > .box_i {
   border: 2px solid #914343;
@@ -206,6 +231,7 @@ background-color: rgba(0,0,0,.85);
   height: 100%;
   border-radius: 10px;
   text-align: center;
+  overflow: auto;
   
 }
 .i_h4
@@ -220,57 +246,27 @@ background-color: rgba(0,0,0,.85);
   font-size: 20px;
 }
 
-.i_wrap>.col1 {
-    width: 70%;
-    border-radius: 10px;
-}
-
-.i_wrap>.col1 img {
-    width: 100%;
-    border-radius: 15px;
-}
-
-.i_wrap .col3 {
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    max-height: 300px;
-}
-
-.i_wrap .col3>.box_i {
-    border: 2px solid #914343;
-    margin: 3px;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    text-align: center;
-}
-
-
 /*-----------------------------------------------*/
-
-
 /**** CSS Ends above/ Imran part in home page****/
 
 
 
 .container1 {
   display: flex;
-  /* max-width: 100%; */
+   max-width: 100%; 
   position: relative;
   margin-bottom: 50px;
-  justify-content: center;
-  
+   justify-content: center; 
+ 
   
 }
 
-.container1 .row{
+/* .container1 .row{
   
   width: 100%;
   text-align: center;
-}
-.col {
+} */
+.col_k {
   float: left;
   width: 33.33%;
   
@@ -292,9 +288,9 @@ background-color: rgba(0,0,0,.85);
 }
 
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
@@ -306,7 +302,12 @@ background-color: rgba(0,0,0,.85);
   border-radius: 10px;
 }
 
-
+@media screen and (max-width:1300px) {  
+  .col-md-4 iframe{
+      height: 230px;
+      width: 100%;
+  }
+}
 
 /*-----------------------------------------*/
 
@@ -317,7 +318,7 @@ background-color: rgba(0,0,0,.85);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  /* font-family: "poppins", sans-serif; */
   /* border: solid 2px; */
 }
 
@@ -334,14 +335,16 @@ background-color: rgba(0,0,0,.85);
   width: 50%;
   padding-bottom: 50px;
 }
-.container_g>.heading_g>h3 {
-    font-size: 2em;
-    font-weight: bolder;
-    padding-bottom: 10px;
-    border-bottom: solid black 2px;
+.container_g > .heading_g > h1 {
+  /* font-size: 2em; */
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: solid black 2px;
+  color:white;
 }
-.container_g .heading_g>h3>span {
-                font-weight: lighter;
+
+.container_g .heading_g > h1 > span {
+  font-weight: lighter;
 }
 
 .container_g  > .box_g {
@@ -349,15 +352,17 @@ background-color: rgba(0,0,0,.85);
   flex-direction: row;
   justify-content: space-between;
 }
-.container_g>.box_g>.imageClass_g {
-                        display: flex;
-                        flex-direction: column;
-                        max-width: 32.5%;
+
+.container_g > .box_g > .imageClass_g {
+  display: flex;
+  flex-direction: column;
+  max-width: 32.5%;
 }
-.container_g>.box_g>.imageClass_g>img {
-                            width: 100%;
-                            padding-bottom: 10px;
-                            border-radius: 10px;
+
+.container_g > .box_g > .imageClass_g > img {
+  width: 100%;
+  padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 /*-- ============= Gallery CSS Ends here ============== -->*/
@@ -367,18 +372,19 @@ background-color: rgba(0,0,0,.85);
 /*-- =========== About Us CSS starts here ============ -->*/
 
 .container_a {
-                            margin: 0;
-                            padding: 0;
-                            box-sizing: border-box;
-                            font-family: "poppins", sans-serif;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            margin: 50px 20px 0px 20px;
-                            /* border: solid 2px; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "poppins", sans-serif; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 20px 0px 20px;
+  /* border: solid 2px; */
 }
-                        /* .container_a {
+
+/* .container_a {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -386,27 +392,32 @@ background-color: rgba(0,0,0,.85);
     text-align: center;
     margin: 50px 20px 0px 20px;
   } */
+
 .container_a .heading_a {
-                            width: 30%;
-                            padding-bottom: 50px;
+  width: 30%;
+  padding-bottom: 50px;
 }
-.container_a>.heading_a>h3 {
-                            font-size: 2em;
-                            font-weight: bolder;
-                            padding-bottom: 10px;
-                            border-bottom: solid black 2px;
-                            text-align: center;
+.container_a > .heading_a > h1 {
+  /* font-size: 3em; */
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: solid black 2px;
+  text-align: center;
 }
-.container_a .heading_a h3 span {
-    font-weight: lighter;
+
+.container_a .heading_a h1 span {
+  font-weight: lighter;
 }
-.container_a>.box_a {
-    margin-bottom: 30px;
+
+.container_a > .box_a {
+  margin-bottom: 30px;
 }
-.container_a>.team_photos {
-    display: flex;
-    margin-bottom: 100px;
-    text-align: center;
+
+.container_a > .team_photos {
+  display: flex;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 .container_a > .team_photos .aboutus_img {
@@ -423,5 +434,5 @@ background-color: rgba(0,0,0,.85);
 /*-- ============= Table Booking CSS Starts here ============== -->*/
 
 #padding_div{
-  padding-top: 50px;
+  padding-top: 30px;
 }
