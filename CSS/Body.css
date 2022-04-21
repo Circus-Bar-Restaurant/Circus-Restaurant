@@ -397,7 +397,8 @@ background-color: rgba(0,0,0,.85);
   padding-bottom: 50px;
 }
 .container_a > .heading_a > h3 {
-  font-size: 2em;
+  font-size: 3em;
+  color: white;
   font-weight: bolder;
   padding-bottom: 10px;
   border-bottom: solid black 2px;
