@@ -7,8 +7,7 @@
 
     <link rel="stylesheet" href="css/Body.css">
     <link rel="stylesheet" href="css/Forms.css">
-    <link rel="stylesheet" href="css/Header_Footer.css" >
-
+    <link href="css/Header_Footer.css" rel="stylesheet">
     <!-- Google Fonts -->
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
@@ -20,6 +19,7 @@
             document.body.style.paddingTop = navbar_height + 'px';
         });
     </script>
+
 
 </head>
 
@@ -43,9 +43,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Gallery.html"><i class="fa fa-fw fa-photo"></i>Gallery</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Contact_Us.html"><i class="fa fa-fw fa-phone-square"></i>Contact</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="Contact_Us.html"><i class="fa fa-fw fa-phone-square"></i>Contact</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="About_Us.html"><i class="fa fa-fw fa-info-circle"></i>About Us</a>
                     </li>
@@ -54,9 +52,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Table_Booking.html"><i class="fa fa-fw fa-calendar"></i>Book a Table</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Login.html"><i class="fa fa-fw fa-user"></i>Login</a> 
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="Login.html"><i class="fa fa-fw fa-user"></i>Login</a> </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Registration.html"><i class="fa fa-fw fa-address-book"></i>Registration</a>
                     </li>
@@ -64,7 +60,6 @@
             </div>
         </div>
     </nav>
-    
     <!-- ============= End Header COMPONENT ============== -->
     <div class="container" style="max-width: 90%">
         <div id="foodMenuSlide" class="row justify-content-center">
@@ -87,6 +82,7 @@
                                         <div>
                                             <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
                                             <a href="Table_Booking.html" class="btn-book animate__animated animate__fadeInUp scrollto">Book a Table</a>
+                                            <a href="Order_Menu.html" class="btn-book animate__animated animate__fadeInUp scrollto">Order Food</a>
                                         </div>
                                     </div>
                                 </div>
@@ -103,6 +99,7 @@
                                         <div>
                                             <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
                                             <a href="Table_Booking.html" class="btn-book animate__animated animate__fadeInUp scrollto">Book a Table</a>
+                                            <a href="Order_Menu.html" class="btn-book animate__animated animate__fadeInUp scrollto">Order Food</a>
                                         </div>
                                     </div>
                                 </div>
@@ -117,6 +114,7 @@
                                         <div>
                                             <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
                                             <a href="Table_Booking.html" class="btn-book animate__animated animate__fadeInUp scrollto">Book a Table</a>
+                                            <a href="Order_Menu.html" class="btn-book animate__animated animate__fadeInUp scrollto">Order Food</a>
                                         </div>
                                     </div>
                                 </div>
@@ -133,9 +131,14 @@
                         </a>
 
                     </div>
+                    
                 </div>
             </section>
+            
+            
             <!-- End Hero -->
+
+
 
             <!-- ======= Menu Section ======= -->
             <section id="menu" name="menu" class="menu">
@@ -152,7 +155,8 @@
                                 <li data-filter=".filter-starters">Starters</li>
                                 <li data-filter=".filter-maincourse">Main course</li>
                                 <li data-filter=".filter-Beverages">Beverages</li>
-                                <li><a class="scrollto" style="color:black" href=" #specials">Specialty</a></li>
+                                <li>
+                                    <a class="scrollto" style="color:black" href=" #specials">Specialty</a></li>
 
                             </ul>
                         </div>
@@ -162,119 +166,108 @@
 
                         <div class="col-lg-6 menu-item filter-starters">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Roasted stuffed mushrooms</a>
-                                    <span>200 kr</span>
+                                <a class="menu_food_a" href="#">Roasted stuffed mushrooms
+                                </a><span>200 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Mushrooms, Garlic, Oliveoil, Lemon
+                                Mushrooms,garlic,oliveoil,lemon
                             </div>
                         </div>
 
 
                         <div class="col-lg-6 menu-item filter-maincourse">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Palak paneer</a>
-                                    <span>600 kr</span>
+                                <a class="menu_food_a" href="#">Palak paneer</a><span>600 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Spinach, Paneer and Tomatoes
+                                spinach,paneer and tomatoes
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-starters">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Baked spring rolls</a>
-                                    <span>250 kr</span>
+                                <a class="menu_food_a" href="#">Baked spring rolls</a><span>250 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Spring roll papers, Bean sprouts, Coriander, Chinese cabbage
+                                spring roll papers,bean sprouts,coriander,chinese cabbage
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-maincourse">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Classic lasagne</a>
-                                    <span>400 kr</span>
+                                <a class="menu_food_a" href="#">Classic lasagne</a><span>400 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Lasagne sheets, Hot beef, Tomato sauce, Mozzarella
+                                lasagne sheets,hot beef,tomato sauce,mozzarella
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-Beverages">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Orange juice</a>
-                                    <span>100 kr</span>
+                                <a class="menu_food_a" href="#">Orange juice</a><span>100 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Fresh oranges and Sugar
+                                fresh oranges and sugar
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-starters">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Bacon rings</a>
-                                    <span>200 kr</span>
+                                <a class="menu_food_a" href="#">Bacon rings</a><span>200 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                String cheese, Pine apple rings, Bacon rashers
+                                string cheese,pine apple rings,bacon rashers
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-maincourse">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Butter Chicken</a>
-                                    <span>400 kr</span>
+                                <a class="menu_food_a" href="#">Butter Chicken</a><span>400 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Fresh chicken, Butter, Fresh cream and Tomatoes
+                                Fresh chicken,butter,fresh cream and tomatoes
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-Beverages">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Strawberry Thandai</a>
-                                    <span>100 kr</span>
+                                <a class="menu_food_a" href="#">Strawberry Thandai</a><span>100 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Starwberries, Cashew nuts, Almonds, Pistachois
+                                Starwberries,cashew nuts,Almonds,pistachois
                             </div>
                         </div>
                         <div class="col-lg-6 menu-item filter-maincourse">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Lamb Paya</a>
-                                    <span>400 kr</span>
+                                <a class="menu_food_a" href="#">Lamb Paya</a><span>400 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Fresh mutton, Butter, Tomato
+                                fresh mutton,butter,tomato
                             </div>
                         </div>
                         <div class="col-lg-6 menu-item filter-Beverages">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Watermelon & Dry Fruit Punch Recipe</a>
-                                    <span>100 kr</span>
+                                <a class="menu_food_a" href="#">Watermelon & Dry Fruit Punch Recipe</a><span>100 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Watermelon, Almonds, Cashew nuts, Lemon juice, Sugar
+                                watermelon,almonds,cashew nuts,lemon juice,sugar
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-starters">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Lobster Roll</a>
-                                    <span>200 kr</span>
+                                <a class="menu_food_a" href="#">Lobster Roll</a><span>200 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Plump lobster meat, Mayo and crisp lettuce on a toasted bulky roll
+                                Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
                             </div>
                         </div>
                         <div class="col-lg-6 menu-item filter-Beverages">
                             <div class="menu-content">
-                                <a class="menu_food_a" href="#">Kesar Thandai</a>
-                                    <span>100 kr</span>
+                                <a class="menu_food_a" href="#">Kesar Thandai</a><span>100 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Kesarbadam, Thandai, Milk
+                                Kesarbadam,Thandai,Milk
                             </div>
                         </div>
 
@@ -312,13 +305,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <div class="col-lg-9 mt-4 mt-lg-0">
                             <div class="tab-content">
-
                                 <div class="tab-pane active show" id="tab-1">
                                     <div class="row">
-
                                         <div class="col-lg-8 details order-2 order-lg-1">
                                             <h3 class="menu_h3">Enjoy delicious pizza</h3>
                                             <p class="fst-italic">Fantastic recipe with chicken,tomatoes,cheese</p>
@@ -332,7 +322,6 @@
                                 </div>
                                 <div class="tab-pane" id="tab-2">
                                     <div class="row">
-
                                         <div class="col-lg-8 details order-2 order-lg-1">
                                             <h3 class="menu_h3">Enjoy delicious fried rice</h3>
                                             <p class="fst-italic">fantastic recipe with all vegetables mixed in rice</p>
@@ -345,7 +334,6 @@
                                 </div>
                                 <div class="tab-pane" id="tab-3">
                                     <div class="row">
-
                                         <div class="col-lg-8 details order-2 order-lg-1">
                                             <h3 class="menu_h3">Enjoy delicious calzone</h3>
                                             <p class="fst-italic">Stuff with your favorite pizza toppings like sauce, pepperoni, mozzarella, and veggies.</p>
@@ -358,7 +346,6 @@
                                 </div>
                                 <div class="tab-pane" id="tab-4">
                                     <div class="row">
-
                                         <div class="col-lg-8 details order-2 order-lg-1">
                                             <h3 class="menu_h3">Enjoy delicious Neapolitan Pizza</h3>
                                             <p class="fst-italic">It is a delicious pizza with more tomatoes</p>
@@ -371,7 +358,6 @@
                                 </div>
                                 <div class="tab-pane" id="tab-5">
                                     <div class="row">
-
                                         <div class="col-lg-8 details order-2 order-lg-1">
                                             <h3 class="menu_h3">Enjoy delicious Pizzette</h3>
                                             <p class="fst-italic">Delicious pizza with cheese and tomatoes.</p>
@@ -383,7 +369,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -396,7 +381,7 @@
 
             <!-- ======= Chefs Section ======= -->
             <section id="chefs" class="chefs">
-                <div class="container">
+                <div class="container container_chef">
 
                     <div class="section-title">
                         <h2>Our Proffesional <span>Chefs</span></h2>
@@ -461,6 +446,11 @@
         </div>
     </div>
 
+
+    <script src="js/isotope.pkgd.min.js">
+    </script>
+    <script src="js/main.js"></script>
+
     <!-- ============= End Container COMPONENT ============== -->
 
     <!-- ============= Footer COMPONENT ============== -->
@@ -480,9 +470,6 @@
 
     </footer>
     <!-- ============= End Footer COMPONENT ============== -->
-
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/main.js"></script>
 
 </body>
 
