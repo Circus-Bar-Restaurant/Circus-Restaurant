@@ -111,7 +111,7 @@ form textarea{
     font-size: 20px;
     background-color:rgb(77, 77, 183);
     padding-left: 40px;
-    margin-bottom: 4px;
+    margin-bottom: 40px;
 }
 .fa-star{
     color: rgb(234, 224, 224);
@@ -127,7 +127,7 @@ form textarea{
 
 /* Contact Us page css */
 body{
-      
+    background-color: #f97777;  
     display: flex;
 } 
 .container-k1{
@@ -180,7 +180,8 @@ h4{
 h2{
     text-align: center;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 20px;  
 }
 p{
     text-align: center;
@@ -217,7 +218,7 @@ width: 200px;
 }
 .submit-k1{
    
-    margin:10px 200px 100px;
+    margin:10px 130px 100px;
     border: 1px solid black;
     width:100px;
     height: 30px;
