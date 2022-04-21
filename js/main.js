@@ -1,3 +1,4 @@
+
 (function() {
     "use strict";
 
@@ -6,9 +7,12 @@
      */
     const select = (el, all = false) => {
         el = el.trim()
-        if (all) {
+        if (all) 
+        {
             return [...document.querySelectorAll(el)]
-        } else {
+        } 
+        else 
+        {
             return document.querySelector(el)
         }
     }
@@ -18,10 +22,14 @@
      */
     const on = (type, el, listener, all = false) => {
         let selectEl = select(el, all)
-        if (selectEl) {
-            if (all) {
+        if (selectEl) 
+        {
+            if (all) 
+            {
                 selectEl.forEach(e => e.addEventListener(type, listener))
-            } else {
+            } 
+            else 
+            {
                 selectEl.addEventListener(type, listener)
             }
         }
@@ -53,11 +61,13 @@
      * Scrool with ofset on links with a class name .scrollto e.g OurMenu, Special
      */
     on('click', '.scrollto', function(e) {
-        if (select(this.hash)) {
+        if (select(this.hash)) 
+        {
             e.preventDefault()
 
             let navbar = select('#navbar')
-            if (navbar.classList.contains('navbar-mobile')) {
+            if (navbar.classList.contains('navbar-mobile')) 
+            {
                 navbar.classList.remove('navbar-mobile')
                 let navbarToggle = select('.mobile-nav-toggle')
                 navbarToggle.classList.toggle('bi-list')
@@ -84,7 +94,8 @@
      */
     window.addEventListener('load', () => {
         let menuContainer = select('.menu-container');
-        if (menuContainer) {
+        if (menuContainer) 
+        {
             let menuIsotope = new Isotope(menuContainer, {
                 itemSelector: '.menu-item',
                 layoutMode: 'fitRows'
