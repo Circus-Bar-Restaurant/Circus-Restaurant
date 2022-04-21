@@ -144,7 +144,7 @@ textarea {
     font-size: 20px;
     /* background-color:rgb(77, 77, 183); */
     /* padding-left: 40px; */
-    margin-bottom: 4px;
+    margin-bottom: 40px;
 }
 .fa-star{
     color: rgb(234, 224, 224);
@@ -702,7 +702,7 @@ width: 200px;
     z-index: 9;
 }
 
-.chefs .container {
+.chefs .container_chef {
     position: relative;
     z-index: 10;
 }
