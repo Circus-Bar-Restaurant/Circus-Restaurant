@@ -318,7 +318,7 @@ background-color: rgba(0,0,0,.85);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  /* font-family: "poppins", sans-serif; */
   /* border: solid 2px; */
 }
 
@@ -335,14 +335,15 @@ background-color: rgba(0,0,0,.85);
   width: 50%;
   padding-bottom: 50px;
 }
-.container_g > .heading_g > h3 {
-  font-size: 2em;
+.container_g > .heading_g > h1 {
+  /* font-size: 2em; */
   font-weight: bolder;
   padding-bottom: 10px;
   border-bottom: solid black 2px;
+  color:white;
 }
 
-.container_g .heading_g > h3 > span {
+.container_g .heading_g > h1 > span {
   font-weight: lighter;
 }
 
@@ -374,7 +375,7 @@ background-color: rgba(0,0,0,.85);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  /* font-family: "poppins", sans-serif; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -396,8 +397,8 @@ background-color: rgba(0,0,0,.85);
   width: 30%;
   padding-bottom: 50px;
 }
-.container_a > .heading_a > h3 {
-  font-size: 3em;
+.container_a > .heading_a > h1 {
+  /* font-size: 3em; */
   color: white;
   font-weight: bolder;
   padding-bottom: 10px;
@@ -405,7 +406,7 @@ background-color: rgba(0,0,0,.85);
   text-align: center;
 }
 
-.container_a .heading_a h3 span {
+.container_a .heading_a h1 span {
   font-weight: lighter;
 }
 
@@ -433,5 +434,5 @@ background-color: rgba(0,0,0,.85);
 /*-- ============= Table Booking CSS Starts here ============== -->*/
 
 #padding_div{
-  padding-top: 50px;
+  padding-top: 30px;
 }

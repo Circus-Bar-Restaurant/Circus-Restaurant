@@ -221,8 +221,8 @@ textarea {
 .contact_h2{
     text-align: center;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-    font-weight: bold; 
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   */
+    /* font-weight: bold;  */
     
 }
 #contact_p{
