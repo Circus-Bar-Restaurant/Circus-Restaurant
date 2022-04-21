@@ -8,19 +8,19 @@
     margin: -10px 0px -10px 0px;
 }
 
-nav .navbar-nav>li>a {
+.navbar-nav>li>a {
     color: #434040;
 }
 
-nav .navbar-nav>li>a:hover,
-nav .navbar-nav>li>a:focus {
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
     color: #8a0e0b;
     background-color: #7c7774;
 }
 
-nav .navbar-nav>.active>a,
-nav .navbar-nav>.active>a:hover,
-nav .navbar-nav>.active>a:focus {
+.navbar-nav>.active>a,
+.navbar-nav>.active>a:hover,
+.navbar-nav>.active>a:focus {
     color: #8a0e0b;
     background-color: #4a4746;
 }
@@ -45,28 +45,15 @@ nav .navbar-nav>.active>a:focus {
 /*Footer css*/
 
 
-/* .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 30px;
-    width: 100%;
-    background-color: rgb(145, 67, 67);
-    color: white;
-    text-align: center;
-} */
-
-
-/*
-.footer p {
+/* p {
     text-align: left;
     font-size: xlarge;
     margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 0%;
 }
-
-.footer ul {
+ul {
+    
     list-style-type: none;
     margin: 10;
     padding: 0;
@@ -74,27 +61,45 @@ nav .navbar-nav>.active>a:focus {
     margin-bottom: 20px;
     display: flex;
 }
-
-.footer li {
+li {
     float: right;
     margin: 15px;
+    text-align: center; 
+    position: relative;
+   
 }
 
-.footer a:hover {
+#footer a:hover {
     display: inline-block;
     width: 20px;
     text-decoration: none;
     padding: 10px;
 }
 
-.yuran {
+#footer {  
+    position: fixed;  
+    left: 0px;  
+    bottom: 0px;  
+    right: 10px;   
+    width: 100%;  
+     text-align: left;  
+     font-style: italic;
+     background-color: rgb(145, 67, 67);
+        color: white;
+        height: 50px;
+        
+    } 
+
+.yuran{
+    
     width: 30px;
     height: 30px;
     right: 5px;
     display: inline;
     text-align: right;
-}
-*/
+    
+    
+} */
 
 .footer {
     font-style: italic;

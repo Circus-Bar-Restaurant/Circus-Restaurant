@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="CSS/Body.css">
     <link rel="stylesheet" href="CSS/Forms.css">
     <link href="CSS/Header_Footer.css" rel="stylesheet">
-
+    
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function() {
             navbar_height = document.querySelector('.navbar.fixed-top').offsetHeight;
@@ -18,7 +18,7 @@
     </script>
 </head>
 
-<body>
+<body id="contactusbody">
     <!-- ============= Header COMPONENT ============== -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark justify-content-center topnav">
         <div class="container-fluid">
@@ -39,7 +39,7 @@
                         <a class="nav-link" href="Gallery.html"><i class="fa fa-fw fa-photo"></i>Gallery</a>
                     </li>
                     <li class="nav-item "><a class="nav-link active" href="Contact_Us.html"><i class="fa fa-fw fa-phone-square"></i>Contact</a></li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="About_Us.html"><i class="fa fa-fw fa-info-circle"></i>About Us</a>
                     </li>
                 </ul>
@@ -59,65 +59,54 @@
 
     <!-- ============= Container COMPONENT ============== -->
     <!-- Begin page content -->
-    <div class="container" style="max-width: 90%"> <br>
-        <table style="text-align: center; color: white;">
-            <tr >
-              <td style="height: 300px; width: 1000px;"> <img src="/Images/location.png" alt="location" width="230px" height="250px"></td>
-              <td style="height: 300px; width: 1000px;"> <img src="/Images/telephon.png" alt="telephon" width="230px" height="250px"> </td>
-              <td style="height: 300px; width: 1000px;"> <img src="/Images/fax.png" alt="fax" width="230px" height="250px"></td>
-              <td style="height: 300px; width: 1000px;"> <img src="/Images/box.png" alt="box" width="230px" height="250px"></td>
-            </tr>
-            <tr style=>
-              <th>Our Main Office</th>
-              <th>Phone Number</th>
-              <th>Fax</th>
-              <th>Email</th>
-            </tr>
-            <tr style="height: 50px;">
-                <td>Stockholm-Sweden</td>
-                <td>0046-737418481</td>
-                <td>1-234-567-8910</td>
-                <td>circus.restaurant@gmail.com</td>
-              </tr>
-          </table>
-
-          <div class="row justify-content-center">
-            <form style="width: 70%;">
-                <div class="form-check d-flex justify-content-center">
-                    <h1>Contact Us</h1>
-                </div>
-                <hr style="border: 1px solid white;">
-                <!-- 2 column grid layout with text inputs for the first and last names -->
-                <div class="row mb-4 ">
-                    <div class="col ">
-                        <div class="form-outline ">
-                            <input type="text" id="firstName " class="form-control" placeholder="Enter Name " />
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-4 ">
-                    <div class="col ">
-                        <div class="form-outline ">
-                            <input type="email" id="emailId" class="form-control " placeholder="Email " />
-                        </div>
-                    </div>
+    <div class="container d-flex justify-content-center pt-3 " style="max-width: 90%" >
+        <div class="d-flex justify-content-center">
+            <div class="container-k1" >
+                <h2 class="contact_h2">CONNECT WITH US</h2>
+                <p id="contactus_p">Feel free to contact us for any information or queries</p>
+                
+                <div class="row-k1">
+                    <div class="col-md-6 col-sm-12">
+                        <h4 style="margin-left:150px;" class="contact_h2">REACH US</h4>
+                        <p class="msg-k1" id="contactus_p">
+                        <span class="icon-k1" style="color: black;"><i class="fa fa-map-marker"></i> Location</span>
+                        Westfield Mall of Scandinavia
+                        169 79 Solna
+                        Stockholm </p>   
+                        <p class="msg-k1" id="contactus_p">
+                        <span class="icon-k1" style="padding: 30px;">CONTACT</span>
+                        <i class="fa fa-phone"></i> +46 76 10 10
+                        <i class="fa fa-envelope"></i> info@vinduvinodham.se </p>
+                        <p class="msg-k1" id="contactus_p">
+                        <i class="fa fa-clock-o"></i><span class="icon-k1">Open Hours</span>
+                        Mon-Thurs&emsp;&emsp;11:30-22:30
+                        Friday  &emsp;&emsp;&emsp;10:30-23:30
+                        Saturday&emsp;&emsp;&emsp;10:30-23:30
+                        Sunday &emsp;&emsp;&emsp; 11:30-22:30
+                        </p>
                     
                 </div>
-                
-                <!-- Message input -->
-                <div class="form-outline mb-4 ">
-                    <textarea class="form-control " id="additionalInfo " rows="4 " placeholder="Additional information "></textarea>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-            </form>
-        </div>
-
-    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h4 class="contact_h4">SEND MESSAGE</h4>
+            
+                        <form class="contact-k1">
+                            <label class="contactus_label" for="Fname">Name</label>
+                            <input type="text" placeholder="FullName" required><br>
+                            <label class="contactus_label" for="email">E-Mail</label>
+                            <input type="email" id="email" name="email1" placeholder="E-MailAddress"><br><br>
+                            <textarea class="textarea-k1" name="Text1" cols="30" rows="4" placeholder="Write your message here...."></textarea><br>    
+                            <input id="submit-k1" class="btn btn-primary"  type="submit" value="SEND"><br>               
+                        </form>
+                    </div>
+                </div> 
+            </div> 
+        </div> 
+    </div>                                       
     <!-- ============= End Container COMPONENT ============== -->
+
     <!-- ============= Footer COMPONENT ============== -->
-    <!-- ========= START FOOTER ========== -->
+    
+    <!--    Yuran code -->
     <footer class="footer fixed-bottom">
         <p class="pull-left">©- 2022 : Circus Restaurant</p>
         <div class="pull-right">
