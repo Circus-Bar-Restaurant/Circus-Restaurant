@@ -7,12 +7,12 @@
 
     <link rel="stylesheet" href="css/Body.css">
     <link rel="stylesheet" href="css/Forms.css">
-    <link href="css/Header_Footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Header_Footer.css" >
+
     <!-- Google Fonts -->
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
 
-     <!-- javascript -->
 
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function() {
@@ -20,7 +20,6 @@
             document.body.style.paddingTop = navbar_height + 'px';
         });
     </script>
-
 
 </head>
 
@@ -44,7 +43,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Gallery.html"><i class="fa fa-fw fa-photo"></i>Gallery</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="Contact_Us.html"><i class="fa fa-fw fa-phone-square"></i>Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact_Us.html"><i class="fa fa-fw fa-phone-square"></i>Contact</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="About_Us.html"><i class="fa fa-fw fa-info-circle"></i>About Us</a>
                     </li>
@@ -53,7 +54,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Table_Booking.html"><i class="fa fa-fw fa-calendar"></i>Book a Table</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="Login.html"><i class="fa fa-fw fa-user"></i>Login</a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html"><i class="fa fa-fw fa-user"></i>Login</a> 
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Registration.html"><i class="fa fa-fw fa-address-book"></i>Registration</a>
                     </li>
@@ -61,6 +64,7 @@
             </div>
         </div>
     </nav>
+    
     <!-- ============= End Header COMPONENT ============== -->
     <div class="container" style="max-width: 90%">
         <div id="foodMenuSlide" class="row justify-content-center">
@@ -79,7 +83,7 @@
                                 <div class="carousel-container">
                                     <div class="carousel-content">
                                         <h2 class="animate__animated animate__fadeInDown"><span>A Circus Eats Restaurant</span></h2>
-                                        <p class="animate__animated animate__fadeInUp">To provide a professional,yet homely,style of hospitality that makes all guests,welcome and happy to be here.A warm meal,a comfortable place,a smile and pleasant attitude that can turn strangers into friends.</p>
+                                        <p class="animate__animated animate__fadeInUp">To provide a professional, yet homely, style of hospitality that makes all guests, welcome and happy to be here. A warm meal, a comfortable place, a smile and pleasant attitude that can turn strangers into friends.</p>
                                         <div>
                                             <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
                                             <a href="Table_Booking.html" class="btn-book animate__animated animate__fadeInUp scrollto">Book a Table</a>
@@ -133,8 +137,6 @@
             </section>
             <!-- End Hero -->
 
-
-
             <!-- ======= Menu Section ======= -->
             <section id="menu" name="menu" class="menu">
                 <div class="container">
@@ -150,8 +152,7 @@
                                 <li data-filter=".filter-starters">Starters</li>
                                 <li data-filter=".filter-maincourse">Main course</li>
                                 <li data-filter=".filter-Beverages">Beverages</li>
-                                <li>
-                                    <a class="scrollto" style="color:black" href=" #specials">Specialty</a></li>
+                                <li><a class="scrollto" style="color:black" href=" #specials">Specialty</a></li>
 
                             </ul>
                         </div>
@@ -161,108 +162,119 @@
 
                         <div class="col-lg-6 menu-item filter-starters">
                             <div class="menu-content">
-                                <a href="#">Roasted stuffed mushrooms
-                                </a><span>200 kr</span>
+                                <a class="menu_food_a" href="#">Roasted stuffed mushrooms</a>
+                                    <span>200 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Mushrooms,garlic,oliveoil,lemon
+                                Mushrooms, Garlic, Oliveoil, Lemon
                             </div>
                         </div>
 
 
                         <div class="col-lg-6 menu-item filter-maincourse">
                             <div class="menu-content">
-                                <a href="#">Palak paneer</a><span>600 kr</span>
+                                <a class="menu_food_a" href="#">Palak paneer</a>
+                                    <span>600 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                spinach,paneer and tomatoes
+                                Spinach, Paneer and Tomatoes
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-starters">
                             <div class="menu-content">
-                                <a href="#">Baked spring rolls</a><span>250 kr</span>
+                                <a class="menu_food_a" href="#">Baked spring rolls</a>
+                                    <span>250 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                spring roll papers,bean sprouts,coriander,chinese cabbage
+                                Spring roll papers, Bean sprouts, Coriander, Chinese cabbage
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-maincourse">
                             <div class="menu-content">
-                                <a href="#">Classic lasagne</a><span>400 kr</span>
+                                <a class="menu_food_a" href="#">Classic lasagne</a>
+                                    <span>400 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                lasagne sheets,hot beef,tomato sauce,mozzarella
+                                Lasagne sheets, Hot beef, Tomato sauce, Mozzarella
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-Beverages">
                             <div class="menu-content">
-                                <a href="#">Orange juice</a><span>100 kr</span>
+                                <a class="menu_food_a" href="#">Orange juice</a>
+                                    <span>100 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                fresh oranges and sugar
+                                Fresh oranges and Sugar
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-starters">
                             <div class="menu-content">
-                                <a href="#">Bacon rings</a><span>200 kr</span>
+                                <a class="menu_food_a" href="#">Bacon rings</a>
+                                    <span>200 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                string cheese,pine apple rings,bacon rashers
+                                String cheese, Pine apple rings, Bacon rashers
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-maincourse">
                             <div class="menu-content">
-                                <a href="#">Butter Chicken</a><span>400 kr</span>
+                                <a class="menu_food_a" href="#">Butter Chicken</a>
+                                    <span>400 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Fresh chicken,butter,fresh cream and tomatoes
+                                Fresh chicken, Butter, Fresh cream and Tomatoes
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-Beverages">
                             <div class="menu-content">
-                                <a href="#">Strawberry Thandai</a><span>100 kr</span>
+                                <a class="menu_food_a" href="#">Strawberry Thandai</a>
+                                    <span>100 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Starwberries,cashew nuts,Almonds,pistachois
+                                Starwberries, Cashew nuts, Almonds, Pistachois
                             </div>
                         </div>
                         <div class="col-lg-6 menu-item filter-maincourse">
                             <div class="menu-content">
-                                <a href="#">Lamb Paya</a><span>400 kr</span>
+                                <a class="menu_food_a" href="#">Lamb Paya</a>
+                                    <span>400 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                fresh mutton,butter,tomato
+                                Fresh mutton, Butter, Tomato
                             </div>
                         </div>
                         <div class="col-lg-6 menu-item filter-Beverages">
                             <div class="menu-content">
-                                <a href="#">Watermelon & Dry Fruit Punch Recipe</a><span>100 kr</span>
+                                <a class="menu_food_a" href="#">Watermelon & Dry Fruit Punch Recipe</a>
+                                    <span>100 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                watermelon,almonds,cashew nuts,lemon juice,sugar
+                                Watermelon, Almonds, Cashew nuts, Lemon juice, Sugar
                             </div>
                         </div>
 
                         <div class="col-lg-6 menu-item filter-starters">
                             <div class="menu-content">
-                                <a href="#">Lobster Roll</a><span>200 kr</span>
+                                <a class="menu_food_a" href="#">Lobster Roll</a>
+                                    <span>200 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+                                Plump lobster meat, Mayo and crisp lettuce on a toasted bulky roll
                             </div>
                         </div>
                         <div class="col-lg-6 menu-item filter-Beverages">
                             <div class="menu-content">
-                                <a href="#">Kesar Thandai</a><span>100 kr</span>
+                                <a class="menu_food_a" href="#">Kesar Thandai</a>
+                                    <span>100 kr</span>
                             </div>
                             <div class="menu-ingredients">
-                                Kesarbadam,Thandai,Milk
+                                Kesarbadam, Thandai, Milk
                             </div>
                         </div>
 
@@ -300,12 +312,15 @@
                                 </li>
                             </ul>
                         </div>
+
                         <div class="col-lg-9 mt-4 mt-lg-0">
                             <div class="tab-content">
+
                                 <div class="tab-pane active show" id="tab-1">
                                     <div class="row">
+
                                         <div class="col-lg-8 details order-2 order-lg-1">
-                                            <h3>Enjoy delicious pizza</h3>
+                                            <h3 class="menu_h3">Enjoy delicious pizza</h3>
                                             <p class="fst-italic">Fantastic recipe with chicken,tomatoes,cheese</p>
                                             <p> An Italian favorite, this chicken pizza recipe is a delicious mix of flat bread or base topped with cheese, chillies, onion, garlic sauce and chunks of chicken.Tossed to perfection, this quick and easy pizza
                                                 recipe is the solution to all those chicken and cheese cravings</p>
@@ -317,8 +332,9 @@
                                 </div>
                                 <div class="tab-pane" id="tab-2">
                                     <div class="row">
+
                                         <div class="col-lg-8 details order-2 order-lg-1">
-                                            <h3>Enjoy delicious fried rice</h3>
+                                            <h3 class="menu_h3">Enjoy delicious fried rice</h3>
                                             <p class="fst-italic">fantastic recipe with all vegetables mixed in rice</p>
                                             <p>Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat.</p>
                                         </div>
@@ -329,8 +345,9 @@
                                 </div>
                                 <div class="tab-pane" id="tab-3">
                                     <div class="row">
+
                                         <div class="col-lg-8 details order-2 order-lg-1">
-                                            <h3>enjoy delicious calzone</h3>
+                                            <h3 class="menu_h3">Enjoy delicious calzone</h3>
                                             <p class="fst-italic">Stuff with your favorite pizza toppings like sauce, pepperoni, mozzarella, and veggies.</p>
                                             <p>Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat.</p>
                                         </div>
@@ -341,8 +358,9 @@
                                 </div>
                                 <div class="tab-pane" id="tab-4">
                                     <div class="row">
+
                                         <div class="col-lg-8 details order-2 order-lg-1">
-                                            <h3>Enjoy delicious Neapolitan Pizza</h3>
+                                            <h3 class="menu_h3">Enjoy delicious Neapolitan Pizza</h3>
                                             <p class="fst-italic">It is a delicious pizza with more tomatoes</p>
                                             <p>Neapolitan pizza is all about simplicity. The sauce is just canned tomatoes, and you’ll top it with fresh mozzarella and basil. Pizza night just got an upgrade!</p>
                                         </div>
@@ -353,8 +371,9 @@
                                 </div>
                                 <div class="tab-pane" id="tab-5">
                                     <div class="row">
+
                                         <div class="col-lg-8 details order-2 order-lg-1">
-                                            <h3>Enjoy delicious Pizzette</h3>
+                                            <h3 class="menu_h3">Enjoy delicious Pizzette</h3>
                                             <p class="fst-italic">Delicious pizza with cheese and tomatoes.</p>
                                             <p>Top your mini-dough circles with fontina cheese, tomatoes, and parmesan cheese. After baking, finish them off with basil and a drizzle of olive oil.
                                             </p>
@@ -364,6 +383,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -389,13 +409,13 @@
                             <div class="member">
                                 <div class="pic"><img src="Images/chef-1.jpg" class="rounded-circle" alt=""></div>
                                 <div class="member-info">
-                                    <h4>Walter White</h4>
+                                    <h4 class="menu_h4">Walter White</h4>
                                     <span>Master Chef</span>
                                     <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-instagram"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-twitter" class="chef_i"></i></a>
+                                        <a href=""><i class="fa fa-facebook" class="chef_i"></i></a>
+                                        <a href=""><i class="fa fa-instagram" class="chef_i"></i></a>
+                                        <a href=""><i class="fa fa-linkedin" class="chef_i"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -405,13 +425,13 @@
                             <div class="member">
                                 <div class="pic"><img src="Images/chef-2.jpg" class="rounded-circle" alt=""></div>
                                 <div class="member-info">
-                                    <h4>Sarah Jhonson</h4>
+                                    <h4 class="menu_h4">Sarah Jhonson</h4>
                                     <span>Patissier</span>
                                     <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-instagram"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-twitter" class="chef_i"></i></a>
+                                        <a href=""><i class="fa fa-facebook" class="chef_i"></i></a>
+                                        <a href=""><i class="fa fa-instagram" class="chef_i"></i></a>
+                                        <a href=""><i class="fa fa-linkedin" class="chef_i"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -421,13 +441,13 @@
                             <div class="member">
                                 <div class="pic"><img src="Images/chef-3.jpg" class="rounded-circle" alt=""></div>
                                 <div class="member-info">
-                                    <h4>William Anderson</h4>
+                                    <h4 class="menu_h4">William Anderson</h4>
                                     <span>Cook</span>
                                     <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-instagram"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-twitter" class="chef_i"></i></a>
+                                        <a href=""><i class="fa fa-facebook" class="chef_i"></i></a>
+                                        <a href=""><i class="fa fa-instagram" class="chef_i"></i></a>
+                                        <a href=""><i class="fa fa-linkedin" class="chef_i"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -440,11 +460,6 @@
             <!-- End #main -->
         </div>
     </div>
-
-
-    <script src="js/isotope.pkgd.min.js">
-    </script>
-    <script src="js/main.js"></script>
 
     <!-- ============= End Container COMPONENT ============== -->
 
@@ -465,6 +480,9 @@
 
     </footer>
     <!-- ============= End Footer COMPONENT ============== -->
+
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
