@@ -144,7 +144,7 @@ textarea {
     font-size: 20px;
     /* background-color:rgb(77, 77, 183); */
     /* padding-left: 40px; */
-    margin-bottom: 4px;
+    margin-bottom: 40px;
 }
 .fa-star{
     color: rgb(234, 224, 224);
@@ -215,12 +215,15 @@ textarea {
     text-align: center;
     justify-content: center;
     color: white;
-    font-style: italic;    
+    font-style: italic;   
+    font-style: bold; 
 }
 .contact_h2{
     text-align: center;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   */
+    /* font-weight: bold;  */
+    
 }
 #contact_p{
     text-align: center;
@@ -228,6 +231,7 @@ textarea {
     color: black;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;    
+    
 }
 
 .row-k1 li{
@@ -702,7 +706,7 @@ width: 200px;
     z-index: 9;
 }
 
-.chefs .container {
+.chefs .container_chef {
     position: relative;
     z-index: 10;
 }

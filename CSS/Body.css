@@ -109,15 +109,45 @@ background-color: rgba(0,0,0,.85);
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 900px) and (max-width: 600px) and (max-width: 300px) {
+  
   .text {font-size: 11px}
   .footer{
     font-size: 11px;
   }
-  .wrap{
+  .i_wrap{
+    font-size: 11px;
+    
+  }
+  /* .container1{ 
+    font-size: 11px;
+    width: 100%;
+    height: 50%;
+  } */
+  .container2{ 
+    font-size: 11px;
+    width: 100%;
+    height: 50%;
+  }
+  .col3 {
+    width: 50%;
+    height: 50%;
     font-size: 11px;
   }
+  .col1 {
+    width: 50%;
+    height: 30%;
+    font-size: 11px;
+  }
+  .container1 .col
+{
+  width: 10%;
+  height: 10%;
+  font-size: 11px;
 }
+}
+
+
 
 /*-----------------------------------------------*/
 /**** CSS Starts here / Imran part in home page****/
@@ -192,6 +222,7 @@ background-color: rgba(0,0,0,.85);
   display: flex;
   flex-direction: column;
   width: 30%;
+  
 }
 .i_wrap .col3 > .box_i {
   border: 2px solid #914343;
@@ -200,6 +231,7 @@ background-color: rgba(0,0,0,.85);
   height: 100%;
   border-radius: 10px;
   text-align: center;
+  overflow: auto;
   
 }
 .i_h4
@@ -221,20 +253,20 @@ background-color: rgba(0,0,0,.85);
 
 .container1 {
   display: flex;
-  /* max-width: 100%; */
+   max-width: 100%; 
   position: relative;
   margin-bottom: 50px;
-  justify-content: center;
-  
+   justify-content: center; 
+ 
   
 }
 
-.container1 .row{
+/* .container1 .row{
   
   width: 100%;
   text-align: center;
-}
-.col {
+} */
+.col_k {
   float: left;
   width: 33.33%;
   
@@ -270,7 +302,12 @@ background-color: rgba(0,0,0,.85);
   border-radius: 10px;
 }
 
-
+@media screen and (max-width:1300px) {  
+  .col-md-4 iframe{
+      height: 230px;
+      width: 100%;
+  }
+}
 
 /*-----------------------------------------*/
 
@@ -281,7 +318,7 @@ background-color: rgba(0,0,0,.85);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  /* font-family: "poppins", sans-serif; */
   /* border: solid 2px; */
 }
 
@@ -298,14 +335,15 @@ background-color: rgba(0,0,0,.85);
   width: 50%;
   padding-bottom: 50px;
 }
-.container_g > .heading_g > h3 {
-  font-size: 2em;
+.container_g > .heading_g > h1 {
+  /* font-size: 2em; */
   font-weight: bolder;
   padding-bottom: 10px;
-  border-bottom: solid black 2px;
+  border-bottom: solid white 2px;
+  color:white;
 }
 
-.container_g .heading_g > h3 > span {
+.container_g .heading_g > h1 > span {
   font-weight: lighter;
 }
 
@@ -337,7 +375,7 @@ background-color: rgba(0,0,0,.85);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  /* font-family: "poppins", sans-serif; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -359,15 +397,16 @@ background-color: rgba(0,0,0,.85);
   width: 30%;
   padding-bottom: 50px;
 }
-.container_a > .heading_a > h3 {
-  font-size: 2em;
+.container_a > .heading_a > h1 {
+  /* font-size: 3em; */
+  color: white;
   font-weight: bolder;
   padding-bottom: 10px;
-  border-bottom: solid black 2px;
+  border-bottom: solid white 1px;
   text-align: center;
 }
 
-.container_a .heading_a h3 span {
+.container_a .heading_a h1 span {
   font-weight: lighter;
 }
 
@@ -395,5 +434,5 @@ background-color: rgba(0,0,0,.85);
 /*-- ============= Table Booking CSS Starts here ============== -->*/
 
 #padding_div{
-  padding-top: 50px;
+  padding-top: 30px;
 }
